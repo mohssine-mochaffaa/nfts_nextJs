@@ -162,6 +162,79 @@
     text-align: center;
     font-family: sans-serif;
   }
+  .cover{
+    background-color: rgb(241, 241, 241);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    z-index: 105;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle{
+    background-color: rgb(100, 100, 100);
+    width: 100px;
+    height: 100px;
+    animation-name: carre;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    box-shadow: 2px 3px 5px rgb(58, 58, 58);
+
+  }
+  .circle2{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    animation-name: carre2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  .circle3{
+    background-color: rgb(17, 0, 255);
+    width: 100px;
+    height: 100px;
+    animation-name: carre3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  @keyframes carre {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes carre2 {
+    from{
+      transform: rotate(0deg);
+      transform: scale(0);
+    }
+    to{
+      transform: rotate(360deg);
+      transform: scale(0.8);
+    }
+    to{
+      opacity: 0;
+    }
+  }
+  @keyframes carre3 {
+    from{
+      transform: rotate(0deg);
+      transform: scale(0);
+    }
+    to{
+      transform: rotate(360deg);
+      transform: scale(0.8);
+    }
+    to{
+      opacity: 0;
+    }
+  }
   @keyframes listing {
     from{
       height:0px;

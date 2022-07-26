@@ -4,6 +4,7 @@ body{
   background-color: rgb(1, 7, 82);
   padding: 0;
   margin: 0;
+  overflow-y: hidden;
 }
 
 .list .pages{

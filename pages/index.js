@@ -17,6 +17,8 @@ export default function Home() {
   const [index,setIndex] = useState(0);
   const [toggle,setToggle] = useState(false)
   const [hide,setHide] = useState("none")
+  const [cover,setCover] = useState('flex')
+  const [cover2,setCover2] = useState("hidden")
   useEffect(()=>{
     const intervalId = setInterval(()=>
       setIndex(index + 1),3500);
@@ -34,6 +36,16 @@ export default function Home() {
       setHide('none')
     }
   },[toggle]);
+  const doIt =()=>{
+    const myInterval = setInterval(()=>{
+      setCover('none');
+      document.body.style.overflowY = "scroll";
+    },5000)
+    return ()=> clearInterval(myInterval);
+  }
+  useEffect(()=>{
+    doIt();
+  },[]);
   return (
     <div className="App">
 
@@ -173,8 +185,15 @@ export default function Home() {
 <a href=" https://discord.gg/BVCqajgkWt" target="_blank" rel="noreferrer"><img src='./assets/discord.png' alt="" /></a>
 </div>
 <h3 className={styles.footer}>©2022 by THE BOY KING LEGACY LLC </h3>
-
 </div> 
+<div style={{display:cover}} className={styles.cover}>
+  <div className={styles.circle}>
+    <div className={styles.circle2}>
+    <div className={styles.circle3}></div>
+
+    </div>
+  </div>
+</div>
     </div>
   )
 }

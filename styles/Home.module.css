@@ -39,6 +39,7 @@
   }
   .pages{
     cursor: pointer;
+    font-family: 'Edu NSW ACT Foundation', cursive;
   }
   .list{
     background-color: rgb(226, 226, 226);
@@ -46,7 +47,8 @@
     height: 300px;
     flex-direction: column;
     align-items: center;
-    padding-top: 55px;
+    padding-top: 75px;
+    padding-bottom: 20px;
     position: absolute;
     z-index: 102;
     display: flex;
@@ -136,10 +138,12 @@
   .profiles .profile .job{
     text-align: center;
     font-size: 14px;
+    font-family: sans-serif;
   }
   .profiles .profile .name{
     text-align: center;
     font-size: 18px;
+    font-family: sans-serif;
   }
   .profiles .profile .media{
     display: flex;

@@ -98,8 +98,8 @@ export default function Home() {
 <div className={styles.profiles}>
   <div className={styles.profile}>
     <img src='./assets/image1.png' alt=""/>
-    <div className='name'>Creed</div>
-    <div className='job'>Colorist</div>
+    <div className={styles.name}>Creed</div>
+    <div className={styles.job}>Colorist</div>
     <div className={styles.media}>
       <a href="https://instagram.com/maximus.photo_restoral.zone?igshid=MDI0Mzk1ZWY=" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>
       <a href=" https://discord.gg/MAXIMUS#2958" target="_blank" rel="noreferrer"><img src='./assets/discord.png' alt="" /></a>
@@ -109,8 +109,8 @@ export default function Home() {
   </div>
   <div className={styles.profile}>
     <img src='./assets/image2.jpeg' alt=""/>
-    <div className='name'>Theodore</div>
-    <div className='job'>Photographer</div>
+    <div className={styles.name}>Theodore</div>
+    <div className={styles.job}>Photographer</div>
     <div className={styles.media}>
       <a href="https://www.facebook.com/PhotoRestorationRescue" target="_blank" rel="noreferrer"><img src='./assets/facebook.png' alt="" /></a>
       <a href="https://www.instagram.com/photo_restoration_rescue/" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>
@@ -119,8 +119,8 @@ export default function Home() {
   </div>
   <div className={styles.profile}>
     <img src='./assets/image3.jpeg' alt=""/>
-    <div className='name'>Saira</div>
-    <div className='job'>Digital colorist</div>
+    <div className={styles.name}>Saira</div>
+    <div className={styles.job}>Digital colorist</div>
     <div className={styles.media}>
     <a href="https://www.instagram.com/colorizacoeshistoricas1/" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>
       <a href="https://www.reddit.com/user/Sairinha/" target="_blank" rel="noreferrer"><img src='./assets/reddit.png' alt="" /></a>
@@ -128,8 +128,8 @@ export default function Home() {
   </div>
   <div className={styles.profile}>
     <img src='./assets/image4.jpeg' alt=""/>
-    <div className='name'>Duan</div>
-    <div className='job'>Digital colorist</div>
+    <div className={styles.name}>Duan</div>
+    <div className={styles.job}>Digital colorist</div>
     <div className={styles.media}>
     <a href="https://www.facebook.com/vintageincolor" target="_blank" rel="noreferrer"><img src='./assets/facebook.png' alt="" /></a>
       <a href="https://www.instagram.com/vint.ageincolor/" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>
@@ -138,16 +138,16 @@ export default function Home() {
   </div>
   <div className={styles.profile}>
     <img src='./assets/image5.jpeg' alt=""/>
-    <div className='name'>Mozart</div>
-    <div className='job'>Digital colorist</div>
+    <div className={styles.name}>Mozart</div>
+    <div className={styles.job}>Digital colorist</div>
     <div className={styles.media}>
     <a href="https://www.instagram.com/mozart.baptista/" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>
     </div>
   </div>
   <div className={styles.profile}>
     <img src='./assets/mohssine.jpeg' alt=""/>
-    <div className='name'>Mochaffaa</div>
-    <div className='job'>Programmer / Developer</div>
+    <div className={styles.name}>Mochaffaa</div>
+    <div className={styles.job}>Programmer / Developer</div>
     <div className={styles.media}>
     <a href="https://www.facebook.com/mohssine_mochaffaa" target="_blank" rel="noreferrer"><img src='./assets/facebook.png' alt="" /></a>
     <a href="https://www.instagram.com/mohssine_mochaffaa/" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>
@@ -156,8 +156,8 @@ export default function Home() {
   </div>
   <div className={styles.profile}>
     <img className='rot' src='./assets/image6.jpeg' alt=""/>
-    <div className='name'>Tata</div>
-    <div className='job'>Co-founder</div>
+    <div className={styles.name}>Tata</div>
+    <div className={styles.job}>Co-founder</div>
     <div className={styles.media}>
     <a href="https://www.facebook.com/tahare.aboudamia96" target="_blank" rel="noreferrer"><img src='./assets/facebook.png' alt="" /></a>
     <a href="https://www.instagram.com/taharaboudamia/" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>

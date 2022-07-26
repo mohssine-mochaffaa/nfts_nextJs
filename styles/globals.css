@@ -1,26 +1,364 @@
-html,
-body {
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&display=swap");
+body{
+  width: 100%;
+  background-color: rgb(1, 7, 82);
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.list .pages{
+  color: rgb(0, 0, 0);
 }
 
-* {
-  box-sizing: border-box;
+p{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-weight: 500;
+  color: rgb(185, 185, 185);
+  font-size: 19px;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+
+.profiles2{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(240, 248, 255, 0.151);
+}
+.profiles2 .social img{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(11, 91, 161);
+  border-radius: 28px;
+}
+.profiles2 .social{
+  background-color: rgba(249, 251, 253, 0.253);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+.profiles2 .social p{
+  color: rgb(0, 4, 255);
+}
+
+
+
+.buy{
+  background-color: yellow;
+  color: rgb(46, 46, 46);
+  width: 260px;
+  height: 50px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(95, 95, 95);
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  font-size: 17px;
+  margin-top: 180px;
+  display: none;
+}
+
+
+.aboutContainer .question{
+font-size: 28px;
+  color: rgb(31, 138, 231);
+}
+.rot{
+  transform: rotate(-35deg);
+}
+.socials{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.socials img{
+  background-color: aliceblue;
+  width: 130px;
+  border-radius: 80%;
+  padding: 0;
+  cursor: pointer;
+}
+.footer{
+  text-align: center;
+}
+@media screen and (max-width:873px) {
+  .nftsSecceion .nfts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
   }
-  body {
-    color: white;
-    background: black;
+  .nftsSecceion .nfts img{
+    width: 340px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px rgb(155, 155, 155);
+  }
+  .gif1{
+    width: 90%;
+    height: 280px;
+  }
+}
+@media screen and (max-width:800px) {
+  .seccions .parts{
+    width: 420px;
+  }
+  
+}
+@media screen and (max-width:738px) {
+  .nftsSecceion .nfts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+  }
+  .nftsSecceion .nfts img{
+    width: 300px;
+    height: 310px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px rgb(155, 155, 155);
+  }
+  .socials img{
+    background-color: aliceblue;
+    width: 110px;
+    border-radius: 80%;
+    padding: 0;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width:645px) {
+  .nftsSecceion .nfts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+  }
+
+  p{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 500;
+    color: rgb(151, 150, 150);
+    font-size: 17px;
+  
+  }
+  .seccions .parts h3{
+    font-size: 16px;
+  
+  }
+  .seccions h2{
+    font-size: 20px;
+  }
+  .profiles .profile{
+    margin-bottom: 40px;
+  }
+  .profiles .profile img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 2px solid rgb(180, 180, 180);
+    
+  }
+  .profiles .profile .job{
+    text-align: center;
+    font-size: 13px;
+  }
+  .profiles .profile .name{
+    text-align: center;
+    font-size: 17px;
+  }
+  .introText{
+    font-size: 34px;
+  }
+  .profiles .profile .media{
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    margin-top: 5px;
+  }
+  .profiles .profile .media img{
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border: 0px solid ;
+    cursor: pointer;
+  }
+  .gif1{
+    width: 90%;
+    height: 220px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .seccions .pages{
+    display: none;
+   }
+   .seccions .parts{
+    justify-content: flex-end;
+    margin-right: 15px;
+   }
+  .burger{
+    display: inline;
+     width: 30px;
+     height: 30px;
+   }
+   .list{
+    display: flex;
+   }
+   .listContainer{
+    display: flex ;
+  }
+  
+}
+@media screen and (max-width:545px) {
+  .nftsSecceion .nfts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+  }
+  .nftsSecceion .nfts img{
+    width: 200px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px rgb(155, 155, 155);
+  }
+  .aboutContainer h1{
+    font-size: 22px;
+  }
+  .line{
+    width: 135px;
+    height: 3px;
+    background-color: rgb(255, 238, 0);
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+  }
+  p{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 500;
+    color: rgb(151, 150, 150);
+    font-size: 16px;
+  
+  }
+  .introText button{
+    background-color: yellow;
+    color: rgb(46, 46, 46);
+    width: 170px;
+    height: 33px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(95, 95, 95);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .profiles .profile img{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    border: 2px solid rgb(180, 180, 180);
+    
+  }
+  .profiles .profile .job{
+    text-align: center;
+    font-size: 11px;
+  }
+  .profiles .profile .name{
+    text-align: center;
+    font-size: 15px;
+  }
+  .gif1{
+    width: 90%;
+    height: 220px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .socials img{
+    background-color: aliceblue;
+    width: 90px;
+    border-radius: 80%;
+    padding: 0;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width:440px) {
+  .nftsSecceion .nfts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+  }
+  .nftsSecceion .nfts img{
+    width: 160px;
+    height: 170px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px rgb(155, 155, 155);
+  }
+  .aboutContainer h1{
+    font-size: 22px;
+  }
+  .line{
+    width: 135px;
+    height: 3px;
+    background-color: rgb(255, 238, 0);
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+  }
+  p{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 500;
+    color: rgb(151, 150, 150);
+    font-size: 16px;
+  
+  }
+  .gif{
+    width: 100%;
+    height: 80vh;
+  }
+  .profiles .profile img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid rgb(180, 180, 180);
+    
+  }
+  .profiles .profile .job{
+    text-align: center;
+    font-size: 10px;
+  }
+  .profiles .profile .name{
+    text-align: center;
+    font-size: 14px;
+  }
+  .gif1{
+    width: 90%;
+    height: 220px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .socials img{
+    background-color: aliceblue;
+    width: 80px;
+    border-radius: 80%;
+    padding: 0;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width:360px) {
+  .gif1{
+    width: 90%;
+    height: 200px;
+    border-radius: 3px;
+    margin-bottom: 10px;
   }
 }

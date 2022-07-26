@@ -1,29 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { useEffect, useState } from 'react';
 import styles from '../styles/Home.module.css'
 import TextTransition,{presets} from 'react-text-transition';
 import {Link} from 'react-scroll';
-import gif from "./assets/myGif.gif";
-import img1 from './assets/image1.png';
-import img2 from './assets/image2.jpeg';
-import img3 from './assets/image3.jpeg';
-import img4 from './assets/image4.jpeg';
-import img5 from './assets/image5.jpeg';
-import img6 from './assets/mohssine.jpeg';
-import img7 from './assets/image6.jpeg';
-import facebook from './assets/facebook.png';
-import instagram from './assets/instagram.png';
-import linkedin from './assets/linkedin.png';
-import reddit from './assets/reddit.png';
-import tiktok from './assets/tiktok.png';
-import discord from './assets/discord.png';
-import twitter from "./assets/twitter.png"
-import gif1 from './assets/gif1.gif';
-import gif2 from './assets/gif2.gif';
-import gif3 from './assets/gif3.gif';
-import gif4 from './assets/gif4.gif';
-import menuBurger from "./assets/menu.png"
+
 
 
 export default function Home() {
@@ -91,8 +71,7 @@ export default function Home() {
       <div className={styles.aboutContainer}>
 
 <h1 className={styles.newH1} id='about'>ABOUT:</h1>
-       <p>Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time .
-with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago.</p>
+       <p>{"Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago."}</p>
 <h1 className={styles.newH1}>The colorization process:</h1>
 <p>The colorization process uses digital tools to restore the damage that occurs to original negatives over time, then grafts individual layers of color into the original black and white photograph placing the viewer directly in the scene to provide a sense of realism and a glimpse at what the original photographer might have seen at the moment of discovery.</p>
 
@@ -105,7 +84,7 @@ with a collection of rare colorized pictures from the discovery of the king Tuta
       <img className={styles.gif1} src='./assets/gif3.gif' alt="" /><br />
       <img className={styles.gif1} src='./assets/gif4.gif' alt="" />
       </div>
-      <p style={{margin:"5px",fontSize:"20px",marginTop:"-15px",marginBottom:"10px"}}>This project is done not to replace the original but to provide afresh perspective on the image. Often seeing these images with colour makes historical snapshots seemingly more current in their message. <br /> There is no doubt that colour changes the balance and composition of the viewer's gaze, but it also opens up a wider world into the image.</p>
+      <p style={{margin:"5px",fontSize:"20px",marginTop:"-15px",marginBottom:"10px"}}>{"This project is done not to replace the original but to provide afresh perspective on the image. Often seeing these images with colour makes historical snapshots seemingly more current in their message."} <br /> {"There is no doubt that colour changes the balance and composition of the viewer's gaze, but it also opens up a wider world into the image."}</p>
       </div>
 
 
@@ -195,7 +174,7 @@ with a collection of rare colorized pictures from the discovery of the king Tuta
 </div>
 <h3 className={styles.footer}>©2022 by THE BOY KING LEGACY LLC </h3>
 
-</div>
+</div> 
     </div>
   )
 }

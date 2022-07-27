@@ -178,7 +178,7 @@ export default function Home() {
   </div>
 </div>
 <h1 className={styles.newH1} id='join'>Join:</h1>
-<div className="socials">
+<div className={styles.socials}>
 <a href="https://web.facebook.com/Discoveryincolor" target="_blank" rel="noreferrer"><img src='./assets/facebook.png' alt="" /></a>
 <a href="https://www.instagram.com/discovery_incolor" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>
 <a href=" https://twitter.com/ColorDiscovery" target="_blank" rel="noreferrer"><img src='./assets/twitter.png' alt="" /></a>

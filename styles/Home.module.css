@@ -82,7 +82,7 @@
   
   }
   .aboutContainer{
-    background-color: rgba(0, 0, 0, 0.911);
+    background-color: rgba(15, 15, 15, 0.911);
     color: white;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -244,6 +244,23 @@
     }
   }
 
+  .socials{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+  }
+  .socials img{
+    background-color: aliceblue;
+    width: 130px;
+    border-radius: 80%;
+    padding: 0;
+    cursor: pointer;
+  }
   
 
 

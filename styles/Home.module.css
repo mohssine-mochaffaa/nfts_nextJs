@@ -11,7 +11,8 @@
     color: rgb(255, 255, 255);
     background-color: rgba(2, 2, 2, 0.144);
     font-weight: bold;
-    z-index: 103;
+    z-index: 110;
+    
   
   }
   .seccions .parts{
@@ -36,7 +37,9 @@
   .burger{
     display: none ;
     cursor: pointer;
-  }
+    z-index: 105;
+    filter: drop-shadow(30px 10px 4px #4444dd);
+ }
   .pages{
     cursor: pointer;
     font-family: 'Edu NSW ACT Foundation', cursive;

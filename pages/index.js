@@ -18,7 +18,11 @@ export default function Home() {
   const [toggle,setToggle] = useState(false)
   const [hide,setHide] = useState("none")
   const [cover,setCover] = useState('flex')
-  const [cover2,setCover2] = useState("hidden")
+  const [navCol,setNavCol] = useState("rgba(2, 2, 2, 0.144)")
+  const [navCol2,setNavCol2] = useState('')
+  const [navCol3,setNavCol3] = useState('')
+  const [myMenu,setMyMenu] = useState("./assets/menu2.png")
+
   useEffect(()=>{
     const intervalId = setInterval(()=>
       setIndex(index + 1),3500);
@@ -46,11 +50,34 @@ export default function Home() {
   useEffect(()=>{
     doIt();
   },[]);
+  
+  const changeValueonScroll = ()=>{
+    const scrollValue = document.documentElement.scrollTop;
+    if (scrollValue > 100) {
+      setNavCol("rgba( 255, 255, 255, 0.35 )")
+      setNavCol2('0 8px 32px 0 rgba( 31, 38, 135, 0.37 )')
+      setNavCol3("blur( 4px )")
+      setMyMenu("./assets/menu.png")
+    }else{
+      setNavCol("rgba(2, 2, 2, 0.144)")
+      setMyMenu("./assets/menu2.png")
+
+    }
+  }
+
+
+  useEffect(()=>{
+    window.addEventListener('scroll',changeValueonScroll)
+  },[])
+  
+
   return (
     <div className="App">
-
-      <div className="header">
-        <div className={styles.seccions}>
+<Head>
+  <title>Discovery in color</title>
+</Head>
+<div style={{position:"sticky",top:0,zIndex:105}}>
+<div id='nav' style={{backgroundColor:navCol,boxShadow:navCol2,backdropFilter:navCol3}} className={styles.seccions}>
           <h2 className={styles.logoText}>TOMBS</h2>
           <div className={styles.parts}>
           <Link className={styles.pages} to="home" spy={true} smooth={true}><h3>Home</h3></Link>
@@ -58,9 +85,10 @@ export default function Home() {
             <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h3>Featured</h3></Link>
             <Link className={styles.pages} to="team" spy={true} smooth={true}><h3>Team</h3></Link>
             <Link className={styles.pages} to="join" spy={true} smooth={true}><h3>Join</h3></Link>
-            <img onClick={()=> toggleMenu()} className={styles.burger} src='./assets/menu.png' alt="" />
+            <img onClick={()=> toggleMenu()} className={styles.burger} src={myMenu} alt="" />
           </div>
         </div>
+
         <div className={styles.listContainer}>
         <div style={{display:hide}} className={styles.list}>          
         <Link className={styles.pages} to="home" spy={true} smooth={true}><h3>Home</h3></Link>
@@ -70,6 +98,8 @@ export default function Home() {
             <Link className={styles.pages} to="join" spy={true} smooth={true}><h3>Join</h3></Link>
         </div>
         </div>
+</div>
+      <div className="header">
         <center id="home" className={styles.intro}>
         <div className={styles.intro}>
           <TextTransition className={styles.introText} springConfig={presets.stiff}>
@@ -184,7 +214,7 @@ export default function Home() {
 <a href=" https://twitter.com/ColorDiscovery" target="_blank" rel="noreferrer"><img src='./assets/twitter.png' alt="" /></a>
 <a href=" https://discord.gg/BVCqajgkWt" target="_blank" rel="noreferrer"><img src='./assets/discord.png' alt="" /></a>
 </div>
-<h3 className={styles.footer}>©2022 by DISCOVERY IN COLOR LLC </h3>
+<h3 className={styles.footer}>©2022 DISCOVERY IN COLOR LLC </h3>
 </div> 
 <div style={{display:cover}} className={styles.cover}>
   <div className={styles.circle}>

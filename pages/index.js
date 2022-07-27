@@ -75,6 +75,7 @@ export default function Home() {
     <div className="App">
 <Head>
   <title>Discovery in color</title>
+  <link href="http://fonts.cdnfonts.com/css/papyrus" rel="stylesheet"/>
 </Head>
 <div style={{position:"sticky",top:0,zIndex:105}}>
 <div id='nav' style={{backgroundColor:navCol,boxShadow:navCol2,backdropFilter:navCol3}} className={styles.seccions}>

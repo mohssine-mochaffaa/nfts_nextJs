@@ -19,20 +19,22 @@
     display: flex;
     align-items: center;
     color: aliceblue;
-    width: 500px;
+    width: 550px;
     justify-content: space-around;
     text-shadow: 3px 3px 4px rgb(17, 17, 17);
-    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Papyrus', sans-serif;
     font-size: 19px;
   }
   .seccions .logoText{
     margin-left: 15px;
     text-shadow: 3px 3px 4px rgb(17, 17, 17);
     font-family: 'Edu NSW ACT Foundation', cursive;
-    font-size: 30px;
+    font-size: 25px;
     cursor: pointer;
     font-weight: bold;
     cursor: pointer;
+    font-family: 'Papyrus', sans-serif;
+
   }
   .burger{
     display: none ;
@@ -41,7 +43,7 @@
  }
   .pages{
     cursor: pointer;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Papyrus', sans-serif;
   }
   .list{
     background-color: rgb(226, 226, 226);
@@ -50,7 +52,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 75px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     position: absolute;
     z-index: 102;
     display: flex;
@@ -163,6 +165,8 @@
   .footer{
     text-align: center;
     font-family: sans-serif;
+    font-family: 'Papyrus', sans-serif;
+
   }
   .cover{
     background-color: rgb(241, 241, 241);

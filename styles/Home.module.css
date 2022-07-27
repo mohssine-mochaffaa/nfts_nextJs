@@ -1,5 +1,9 @@
 @import url('http://fonts.cdnfonts.com/css/papyrus');
-
+@font-face{
+  font-family: 'mohssino';
+  src: url('../public/assets/PAPYRUS.TTF');
+  font-style: normal;
+}
 .gif{
     width: 100%;
     height: 100vh;
@@ -24,7 +28,7 @@
     width: 550px;
     justify-content: space-around;
     text-shadow: 3px 3px 4px rgb(17, 17, 17);
-    font-family: 'Papyrus', sans-serif;
+    font-family: "mohssino";
     font-size: 19px;
   }
   .seccions .logoText{
@@ -35,7 +39,7 @@
     cursor: pointer;
     font-weight: bold;
     cursor: pointer;
-    font-family: 'Papyrus', sans-serif;
+    font-family: "mohssino";
 
   }
   .burger{
@@ -45,7 +49,7 @@
  }
   .pages{
     cursor: pointer;
-    font-family: 'Papyrus', sans-serif;
+    font-family: "mohssino";
   }
   .list{
     background-color: rgb(226, 226, 226);
@@ -167,7 +171,7 @@
   .footer{
     text-align: center;
     font-family: sans-serif;
-    font-family: 'Papyrus', sans-serif;
+    font-family: "mohssino";
 
   }
   .cover{

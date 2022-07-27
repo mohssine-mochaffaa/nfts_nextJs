@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&display=swap");
 @import url('http://fonts.cdnfonts.com/css/papyrus');
 
-@font-face{
+@font-face {
   font-family: 'mohssino';
-  src: url('../public/assets/PAPYRUSS.ttf');
   font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../public/assets/PAPYRUSS.ttf") format('ttf');
 }
 body{
   width: 100%;

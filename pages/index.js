@@ -82,7 +82,7 @@ export default function Home() {
       </div>
       <div className={styles.aboutContainer}>
 
-<h1 className={styles.newH1} id='about'>ABOUT:</h1>
+<h1 className={styles.newH1} id='about'>About:</h1>
        <p>{"Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago."}</p>
 <h1 className={styles.newH1}>The colorization process:</h1>
 <p>The colorization process uses digital tools to restore the damage that occurs to original negatives over time, then grafts individual layers of color into the original black and white photograph placing the viewer directly in the scene to provide a sense of realism and a glimpse at what the original photographer might have seen at the moment of discovery.</p>
@@ -92,7 +92,7 @@ export default function Home() {
       <div className={styles.nftsContainer}>
       <div className={styles.gifContainer}>
       <img className={styles.gif1} src='./assets/gif1.gif' alt="" /><br />
-      <img className={styles.gif1} src='./assets/gif2.gif' alt="" /><br />
+      <img className={styles.gif1} src='./assets/gif5.gif' alt="" /><br />
       <img className={styles.gif1} src='./assets/gif3.gif' alt="" /><br />
       <img className={styles.gif1} src='./assets/gif4.gif' alt="" />
       </div>
@@ -106,7 +106,7 @@ export default function Home() {
 
 
       <div className={styles.aboutContainer}>
-<h1 className={styles.newH1} id='team'>TEAM:</h1>
+<h1 className={styles.newH1} id='team'>Team:</h1>
 <div className={styles.profiles}>
   <div className={styles.profile}>
     <img src='./assets/image1.png' alt=""/>
@@ -161,7 +161,7 @@ export default function Home() {
     <div className={styles.name}>Mochaffaa</div>
     <div className={styles.job}>Programmer / Developer</div>
     <div className={styles.media}>
-    <a href="https://www.facebook.com/mohssine_mochaffaa" target="_blank" rel="noreferrer"><img src='./assets/facebook.png' alt="" /></a>
+    <a href="https://www.facebook.com/mouhcine.mochaffaa" target="_blank" rel="noreferrer"><img src='./assets/facebook.png' alt="" /></a>
     <a href="https://www.instagram.com/mohssine_mochaffaa/" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>
       <a href="https://www.tiktok.com/@mohssine_dev" target="_blank" rel="noreferrer"><img src='./assets/tiktok.png' alt="" /></a>
     </div>
@@ -184,7 +184,7 @@ export default function Home() {
 <a href=" https://twitter.com/ColorDiscovery" target="_blank" rel="noreferrer"><img src='./assets/twitter.png' alt="" /></a>
 <a href=" https://discord.gg/BVCqajgkWt" target="_blank" rel="noreferrer"><img src='./assets/discord.png' alt="" /></a>
 </div>
-<h3 className={styles.footer}>©2022 by THE BOY KING LEGACY LLC </h3>
+<h3 className={styles.footer}>©2022 by DISCOVERY IN COLOR LLC </h3>
 </div> 
 <div style={{display:cover}} className={styles.cover}>
   <div className={styles.circle}>

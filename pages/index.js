@@ -75,7 +75,6 @@ export default function Home() {
     <div className="App">
 <Head>
   <title>Discovery in color</title>
-  <link href="http://fonts.cdnfonts.com/css/papyrus" rel="stylesheet"/>
   <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 </Head>
 <div style={{position:"sticky",top:0,zIndex:105}}>

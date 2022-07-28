@@ -95,7 +95,7 @@ export default function Home() {
         </div>
 
         <div className={styles.listContainer}>
-        <div style={{display:hide}} className={styles.list}>          
+        <div style={{display:hide,fontFamily: "'Papyrus', sans-serif"}} className={styles.list}>          
         <Link className={styles.pages} to="home" spy={true} smooth={true}><h3>Home</h3></Link>
         <Link className={styles.pages} to="about" spy={true} smooth={true}><h3>About</h3></Link>
             <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h3>Featured</h3></Link>
@@ -126,7 +126,7 @@ export default function Home() {
 <div style={{backgroundImage:`url(${bg2.src})`}} className={styles.colorizeContainer}>
 <div className={styles.proccesBackground}>
 <h1 className={styles.newH1}>The colorization process:</h1>
-<p>The colorization process uses digital tools to restore the damage that occurs to original negatives over time, then grafts individual layers of color into the original black and white photograph placing the viewer directly in the scene to provide a sense of realism and a glimpse at what the original photographer might have seen at the moment of discovery.</p>
+<p style={{fontFamily: "'Papyrus', sans-serif"}}>The colorization process uses digital tools to restore the damage that occurs to original negatives over time, then grafts individual layers of color into the original black and white photograph placing the viewer directly in the scene to provide a sense of realism and a glimpse at what the original photographer might have seen at the moment of discovery.</p>
 </div>
 </div>
 

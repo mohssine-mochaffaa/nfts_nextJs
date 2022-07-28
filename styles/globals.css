@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Macondo&family=Special+Elite&display=swap');
 @import url('http://fonts.cdnfonts.com/css/papyrus');
 
 body{
@@ -17,9 +19,12 @@ p{
   font-weight: 900;
   color: rgb(0, 0, 0);
   font-size: 22px;
-  font-family: 'Papyrus', sans-serif !important;       
   padding: 5px;
-  letter-spacing: 1px;                           
+  letter-spacing: 1px;      
+  font-family: 'Macondo', cursive;
+  font-family: 'Cinzel', serif;
+
+                     
 }
 
 
@@ -143,7 +148,6 @@ font-size: 28px;
     font-weight: 900;
     color: rgb(0, 0, 0);
     font-size: 22px;
-    font-family: 'Papyrus', sans-serif; 
     padding: 5px;
   }
   .seccions .parts h3{
@@ -241,7 +245,6 @@ font-size: 28px;
     font-weight: 900;
   color: rgb(0, 0, 0);
   font-size: 22px;
-  font-family: 'Papyrus', sans-serif; 
   padding: 5px;
   }
   .introText button{
@@ -316,7 +319,6 @@ font-size: 28px;
     font-weight: 900;
     color: rgb(0, 0, 0);
     font-size: 22px;
-    font-family: 'Papyrus', sans-serif; 
     padding: 5px;
   }
   .gif{

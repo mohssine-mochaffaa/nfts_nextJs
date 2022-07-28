@@ -14,6 +14,8 @@
     background-color: rgba(2, 2, 2, 0.144);
     font-weight: bold;
     z-index: 110;
+    font-family: 'Cinzel', serif;
+
     
   
   }
@@ -58,6 +60,8 @@
     animation-name:listing ;
     animation-duration: 1s;
     overflow: hidden;
+    font-family: 'Cinzel', serif;
+
   }
   .listContainer{
     display: none ;

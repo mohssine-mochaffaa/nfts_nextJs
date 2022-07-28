@@ -5,7 +5,6 @@ const nextConfig = {
   eslint:{
     ignoreDuringBuilds:false,
   },
-  optimizeFonts:false,
 }
 
 module.exports = nextConfig

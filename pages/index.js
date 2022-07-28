@@ -111,13 +111,20 @@ export default function Home() {
         </center>
       <img className={styles.gif} src='./assets/myGif.gif' alt=""/>
       </div>
-      <div className={styles.aboutContainer}>
 
+<div className={styles.aboutContainer}>
+<div className={styles.aboutBackground}>
 <h1 className={styles.newH1} id='about'>About:</h1>
-       <p>{"Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago."}</p>
+<p>{"Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago."}</p>
+</div>
+</div>
+
+<div className={styles.colorizeContainer}>
+<div className={styles.proccesBackground}>
 <h1 className={styles.newH1}>The colorization process:</h1>
 <p>The colorization process uses digital tools to restore the damage that occurs to original negatives over time, then grafts individual layers of color into the original black and white photograph placing the viewer directly in the scene to provide a sense of realism and a glimpse at what the original photographer might have seen at the moment of discovery.</p>
-
+</div>
+</div>
 
 <h1 className={styles.newH1} id='nfts'>Featured collection:</h1>
       <div className={styles.nftsContainer}>
@@ -131,12 +138,10 @@ export default function Home() {
       </div>
 
 
- 
-</div>
 
 
-
-      <div className={styles.aboutContainer}>
+<div className={styles.teamContainer}>
+<div className={styles.teamBackground}>
 <h1 className={styles.newH1} id='team'>Team:</h1>
 <div className={styles.profiles}>
   <div className={styles.profile}>
@@ -215,8 +220,14 @@ export default function Home() {
 <a href=" https://twitter.com/ColorDiscovery" target="_blank" rel="noreferrer"><img src='./assets/twitter.png' alt="" /></a>
 <a href=" https://discord.gg/BVCqajgkWt" target="_blank" rel="noreferrer"><img src='./assets/discord.png' alt="" /></a>
 </div>
-<h3 className={styles.footer}>©2022 DISCOVERY IN COLOR LLC </h3>
+</div>
 </div> 
+<h3 className={styles.footer}>©2022 DISCOVERY IN COLOR LLC </h3>
+
+
+
+
+
 <div style={{display:cover}} className={styles.cover}>
   <div className={styles.circle}>
     <div className={styles.circle2}>

@@ -10,7 +10,7 @@
 }
 body{
   width: 100%;
-  background-color: rgb(139, 139, 139);
+  background-color: rgb(153, 153, 153);
   padding: 0;
   margin: 0;
   overflow-y: hidden;
@@ -21,12 +21,13 @@ body{
 }
 
 p{
-  font-weight: 500;
-  color: rgb(199, 197, 197);
-  font-size: 19px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
   font-family: "mohssino";
-  font-family: 'Papyrus', sans-serif;
-                                                
+  font-family: 'Papyrus', sans-serif !important;       
+  padding: 5px;
+  letter-spacing: 1px;                           
 }
 
 
@@ -147,13 +148,12 @@ font-size: 28px;
   }
 
   p{
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    font-weight: 500;
-    color: rgb(189, 189, 189);
-    font-size: 17px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
     font-family: "mohssino";
-
-  
+    font-family: 'Papyrus', sans-serif; 
+    padding: 5px;
   }
   .seccions .parts h3{
     font-size: 16px;
@@ -247,13 +247,12 @@ font-size: 28px;
     border-radius: 50px;
   }
   p{
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    font-weight: 500;
-    color: rgb(182, 182, 182);
-    font-size: 16px;
-    font-family: "mohssino";
-
-  
+    font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-family: "mohssino";
+  font-family: 'Papyrus', sans-serif; 
+  padding: 5px;
   }
   .introText button{
     background-color: yellow;
@@ -324,12 +323,12 @@ font-size: 28px;
     border-radius: 50px;
   }
   p{
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    font-weight: 500;
-    color: rgb(182, 182, 182);
-    font-size: 16px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
     font-family: "mohssino";
-
+    font-family: 'Papyrus', sans-serif; 
+    padding: 5px;
   }
   .gif{
     width: 100%;

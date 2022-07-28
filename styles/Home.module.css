@@ -101,6 +101,7 @@
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right top;
     padding-top: 0;
     margin-top: 0;
   }
@@ -113,6 +114,8 @@
     background-size: cover;
     padding-top: 0;
     margin-top: 0;
+    background-position: center top;
+
   }
   .teamContainer{
     background-color: rgba(15, 15, 15, 0.911);
@@ -121,6 +124,7 @@
     height: max-content;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right top;
     padding-top: 0;
     margin-top: 0;
   }
@@ -129,12 +133,12 @@
     text-decoration-color:rgb(255, 238, 0);
   }
   .newH1{
-    color: aliceblue;
+    color: rgb(20, 20, 20);
     font-family: sans-serif;
-    font-size: 26px;
-    text-shadow: 4px 4px 5px rgb(17, 17, 17);
+    font-size: 28px;
     padding-top: 20px;
     padding-left: 5px;
+    font-weight: bolder;
 
 
 
@@ -314,7 +318,9 @@
     height: 100%;
     padding-top: 0;
     margin-top: -15px;
+    -webkit-backdrop-filter: blur( 4px );
   }
+
   .proccesBackground{
     background-color:rgba( 255, 255, 255, 0.35 );
     box-shadow:0 8px 32px 0 rgba(54, 54, 54, 0.37);
@@ -322,6 +328,7 @@
     height: 100%;
     padding-top: 0;
     margin-top: -15px;
+    -webkit-backdrop-filter: blur( 4px );
 
   }
   .teamBackground{
@@ -331,6 +338,7 @@
     height: 100%;
     padding-top: 0;
     margin-top: -15px;
+    -webkit-backdrop-filter: blur( 4px );
 
   }
 
@@ -408,7 +416,7 @@
     }
     .profiles .profile .job{
       text-align: center;
-      font-size: 13px;
+      font-size: 14px;
     }
     .profiles .profile .name{
       text-align: center;
@@ -504,7 +512,7 @@
     }
     .profiles .profile .job{
       text-align: center;
-      font-size: 11px;
+      font-size: 12px;
     }
     .profiles .profile .name{
       text-align: center;
@@ -562,7 +570,7 @@
     }
     .profiles .profile .job{
       text-align: center;
-      font-size: 10px;
+      font-size: 11px;
     }
     .profiles .profile .name{
       text-align: center;

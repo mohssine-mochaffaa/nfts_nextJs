@@ -4,7 +4,8 @@ const nextConfig = {
   swcMinify: true,
   eslint:{
     ignoreDuringBuilds:false,
-  }
+  },
+  optimizeFonts:false,
 }
 
 module.exports = nextConfig

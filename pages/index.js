@@ -84,7 +84,7 @@ export default function Home() {
 <div style={{position:"sticky",top:0,zIndex:105}}>
 <div id='nav' style={{backgroundColor:navCol,boxShadow:navCol2,backdropFilter:navCol3}} className={styles.seccions}>
           <h2 className={styles.logoText}>TOMBS</h2>
-          <div className={styles.parts}>
+          <div style={{fontFamily: "'Papyrus', sans-serif"}} className={styles.parts}>
           <Link className={styles.pages} to="home" spy={true} smooth={true}><h3>Home</h3></Link>
           <Link className={styles.pages} to="about" spy={true} smooth={true}><h3>About</h3></Link>
             <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h3>Featured</h3></Link>

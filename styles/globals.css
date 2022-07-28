@@ -19,12 +19,11 @@ p{
   font-weight: 900;
   color: rgb(0, 0, 0);
   font-size: 22px;
-  padding: 5px;
+  padding: 10px;
   letter-spacing: 1px;      
   font-family: 'Macondo', cursive;
   font-family: 'Cinzel', serif;
-  text-shadow: 1.5px 1.5px 6px black;
-
+  text-shadow: 1.5px 1px 6px rgb(26, 26, 26);
                      
 }
 
@@ -149,18 +148,13 @@ font-size: 28px;
     font-weight: 900;
     color: rgb(0, 0, 0);
     font-size: 22px;
-    padding: 5px;
+    padding: 10px;
   }
   .seccions .parts h3{
     font-size: 16px;
   
   }
-  .seccions h2{
-    font-size: 20px;
-  }
-  .profiles .profile{
-    margin-bottom: 40px;
-  }
+ 
   .profiles .profile img{
     width: 125px;
     height: 125px;
@@ -231,9 +225,7 @@ font-size: 28px;
     border-radius: 5px;
     box-shadow: 2px 3px 5px rgb(155, 155, 155);
   }
-  .aboutContainer h1{
-    font-size: 22px;
-  }
+  
   .line{
     width: 135px;
     height: 3px;
@@ -246,7 +238,7 @@ font-size: 28px;
     font-weight: 900;
   color: rgb(0, 0, 0);
   font-size: 22px;
-  padding: 5px;
+  padding: 10px;
   }
   .introText button{
     background-color: yellow;
@@ -305,9 +297,7 @@ font-size: 28px;
     border-radius: 5px;
     box-shadow: 2px 3px 5px rgb(155, 155, 155);
   }
-  .aboutContainer h1{
-    font-size: 22px;
-  }
+ 
   .line{
     width: 135px;
     height: 3px;
@@ -320,7 +310,7 @@ font-size: 28px;
     font-weight: 900;
     color: rgb(0, 0, 0);
     font-size: 22px;
-    padding: 5px;
+    padding: 10px;
   }
   .gif{
     width: 100%;

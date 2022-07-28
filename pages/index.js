@@ -3,6 +3,10 @@ import { useEffect, useState } from 'react';
 import styles from '../styles/Home.module.css'
 import TextTransition,{presets} from 'react-text-transition';
 import {Link} from 'react-scroll';
+import bg from "../public/assets/about.jpg"
+import bg2 from "../public/assets/coloriz.png"
+import bg3 from "../public/assets/about.jpg"
+
 
 
 
@@ -112,14 +116,14 @@ export default function Home() {
       <img className={styles.gif} src='./assets/myGif.gif' alt=""/>
       </div>
 
-<div className={styles.aboutContainer}>
+<div style={{backgroundImage:`url(${bg.src})`}} className={styles.aboutContainer}>
 <div className={styles.aboutBackground}>
 <h1 className={styles.newH1} id='about'>About:</h1>
 <p>{"Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago."}</p>
 </div>
 </div>
 
-<div className={styles.colorizeContainer}>
+<div style={{backgroundImage:`url(${bg2.src})`}} className={styles.colorizeContainer}>
 <div className={styles.proccesBackground}>
 <h1 className={styles.newH1}>The colorization process:</h1>
 <p>The colorization process uses digital tools to restore the damage that occurs to original negatives over time, then grafts individual layers of color into the original black and white photograph placing the viewer directly in the scene to provide a sense of realism and a glimpse at what the original photographer might have seen at the moment of discovery.</p>
@@ -140,7 +144,7 @@ export default function Home() {
 
 
 
-<div className={styles.teamContainer}>
+<div style={{backgroundImage:`url(${bg3.src})`}} className={styles.teamContainer}>
 <div className={styles.teamBackground}>
 <h1 className={styles.newH1} id='team'>Team:</h1>
 <div className={styles.profiles}>

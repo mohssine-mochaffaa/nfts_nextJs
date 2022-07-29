@@ -5,7 +5,10 @@ import TextTransition,{presets} from 'react-text-transition';
 import {Link} from 'react-scroll';
 import bg from "../public/assets/about.jpg"
 import bg2 from "../public/assets/coloriz.png"
-import bg3 from "../public/assets/about.jpg"
+import bg3 from "../public/assets/restore.jpg"
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 
 
@@ -26,6 +29,14 @@ export default function Home() {
   const [navCol2,setNavCol2] = useState('')
   const [navCol3,setNavCol3] = useState('')
   const [myMenu,setMyMenu] = useState("./assets/menu2.png")
+
+
+
+  const [index2, setIndex2] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex2(selectedIndex);
+  };
 
   useEffect(()=>{
     const intervalId = setInterval(()=>
@@ -79,28 +90,30 @@ export default function Home() {
     <div className="App">
 <Head>
   <title>Discovery in color</title>
-  <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+   <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+   
+
 </Head>
 <div style={{position:"sticky",top:0,zIndex:105}}>
 <div id='nav' style={{backgroundColor:navCol,boxShadow:navCol2,backdropFilter:navCol3}} className={styles.seccions}>
           <h2 className={styles.logoText}>TOMBS</h2>
           <div className={styles.parts}>
-          <Link className={styles.pages} to="home" spy={true} smooth={true}><h3>Home</h3></Link>
-          <Link className={styles.pages} to="about" spy={true} smooth={true}><h3>About</h3></Link>
-            <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h3>Featured</h3></Link>
-            <Link className={styles.pages} to="team" spy={true} smooth={true}><h3>Team</h3></Link>
-            <Link className={styles.pages} to="join" spy={true} smooth={true}><h3>Join</h3></Link>
+          <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
+          <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About us</h7></Link>
+          <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Featured</h7></Link>
+          <Link className={styles.pages} to="team" spy={true} smooth={true}><h7>Team</h7></Link>
+          <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join us</h7></Link>
             <img onClick={()=> toggleMenu()} className={styles.burger} src={myMenu} alt="" />
           </div>
         </div>
 
         <div style={{display:hide}} className={styles.listContainer}>
         <div className={styles.list}>          
-        <Link className={styles.pages} to="home" spy={true} smooth={true}><h3>Home</h3></Link>
-        <Link className={styles.pages} to="about" spy={true} smooth={true}><h3>About</h3></Link>
-            <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h3>Featured</h3></Link>
-            <Link className={styles.pages} to="team" spy={true} smooth={true}><h3>Team</h3></Link>
-            <Link className={styles.pages} to="join" spy={true} smooth={true}><h3>Join</h3></Link>
+        <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
+        <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About us</h7></Link>
+            <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Featured</h7></Link>
+            <Link className={styles.pages} to="team" spy={true} smooth={true}><h7>Team</h7></Link>
+            <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join us</h7></Link>
         </div>
         </div>
 </div>
@@ -133,10 +146,51 @@ export default function Home() {
 <h1 className={styles.newH1} id='nfts'>Featured collection:</h1>
       <div className={styles.nftsContainer}>
       <div className={styles.gifContainer}>
-      <img className={styles.gif1} src='./assets/gif3.gif' alt="" /><br />
-      <img className={styles.gif1} src='./assets/gif4.gif' alt="" /><br />
-      <img className={styles.gif1} src='./assets/gif1.gif' alt="" /><br />
-      <img className={styles.gif1} src='./assets/gif5.gif' alt="" /><br />
+      
+      
+     <center>
+     <Carousel className='carousel' style={{backgroundColor:"black"}} activeIndex={index2} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+          className={styles.dblock}
+          src='./assets/gif3.gif'
+          alt="First slide"
+        />
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className={styles.dblock}
+          src='./assets/gif4.gif'
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className={styles.dblock}
+          src='./assets/gif1.gif'
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className={styles.dblock}
+          src='./assets/gif5.gif'
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+     </center><br />
       </div>
       <p style={{margin:"5px",fontSize:"20px",marginTop:"-15px",marginBottom:"10px"}}>{"This project is done not to replace the original but to provide afresh perspective on the image. Often seeing these images with colour makes historical snapshots seemingly more current in their message."} <br /> {"There is no doubt that colour changes the balance and composition of the viewer's gaze, but it also opens up a wider world into the image."}</p>
       </div>

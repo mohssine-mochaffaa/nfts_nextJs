@@ -205,8 +205,10 @@
     border-radius: 5px;
     margin-left: 10px;
     margin-top: 10px;
+    margin-bottom: -50px;
     font-family: 'Edu NSW ACT Foundation', cursive;
     font-family: 'Cinzel', serif;
+    text-align: center;
   }
   .newH2{
     color: rgb(20, 20, 20);
@@ -231,7 +233,7 @@
   }
   .gifContainer{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
     padding-top: 10px;
   }
@@ -426,6 +428,12 @@
     .seccions .parts h3{
       font-size: 16px;
     
+    }
+    .nftsContainer{
+      align-items: center;
+      align-content: center;
+      align-self: center;
+      background-color: brown;
     }
     .seccions h2{
       font-size: 20px;

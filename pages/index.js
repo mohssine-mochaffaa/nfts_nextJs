@@ -167,12 +167,11 @@ photographer might have seen at the moment of discovery.</p>
 
 
 <div style={{backgroundColor:"#8c8c8c"}} className={styles.nftsContainer}>
-        <br />
-      <h1 className={styles.newH3} id='nfts'>Featured collection</h1>
+      <br />
+      <center><h1 className={styles.newH3} id='nfts'>Featured collection</h1></center>
       <div className={styles.gifContainer}>
      <center>
      <Swiper
-      // install Swiper modules
       modules={[Navigation, EffectFade]}
       spaceBetween={50}
       slidesPerView={1}
@@ -310,7 +309,7 @@ photographer might have seen at the moment of discovery.</p>
 </div>
 </div>
 <div>
-  <center><h2 className={styles.footer}>©2022 DISCOVERY IN COLOR LLC</h2></center>
+  <center><h2 className={styles.footer}>©2022 DISCOVERY IN COLOR LLC</h2> <img style={{width:"200px",marginTop:"-50px"}} src="./assets/footerLogo.png" alt="" /></center>
 </div>
 
 

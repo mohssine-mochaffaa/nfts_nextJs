@@ -191,33 +191,18 @@
     font-family: sans-serif;
     font-size: 26px;
     font-weight: bolder;
-    background-color:rgba( 255, 255, 255, 0.35 );
-    box-shadow:3px 8px 32px  rgba(54, 54, 54, 0.767);
-    backdrop-filter:blur( 1px );
-    -webkit-backdrop-filter: blur( 1px );
     width: max-content;
-    padding: 8px;
     border-radius: 5px;
-    margin-left: 10px;
-    margin-top: 10px;
     font-family: 'Edu NSW ACT Foundation', cursive;
     font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    text-decoration: underline;
   }
   @media screen and (max-width:463px) {
     .newH2{
       color: rgb(20, 20, 20);
-      font-family: sans-serif;
-      font-size: 22px;
-      font-weight: bolder;
-      background-color:rgba( 255, 255, 255, 0.35 );
-      box-shadow:3px 8px 32px  rgba(54, 54, 54, 0.767);
-      backdrop-filter:blur( 1px );
-      -webkit-backdrop-filter: blur( 1px );
+      font-size: 24px;
       width: max-content;
-      padding: 6px;
-      border-radius: 5px;
-      margin-left: 8px;
-      margin-top: 10px;
       font-family: 'Edu NSW ACT Foundation', cursive;
       font-family: 'Cinzel', serif;
     }

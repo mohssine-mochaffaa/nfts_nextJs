@@ -38,13 +38,11 @@
     padding: 15px;
   }
   .seccions .logoText{
-    margin-left: 15px;
     text-shadow: 3px 3px 4px rgb(17, 17, 17);
     font-family: 'Edu NSW ACT Foundation', cursive;
-    font-size: 25px;
     cursor: pointer;
-    font-weight: bold;
-    cursor: pointer;
+    margin: 0;
+    padding: 0;
 
   }
   .burger{
@@ -82,6 +80,7 @@
   .list .pages{
     margin-bottom: 20px;
     text-shadow: 1px 1px 4px rgb(41, 41, 41) !important;
+    margin-top: 10px;
   }
   .listContainer{
     display: none ;

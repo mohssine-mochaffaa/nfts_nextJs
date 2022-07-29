@@ -95,14 +95,19 @@ export default function Home() {
   return (
     <div className="App">
 <Head>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+<link rel="manifest" href="/site.webmanifest"/>
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
+<meta name="msapplication-TileColor" content="#da532c"/>
+<meta name="theme-color" content="#ffffff"/>
   <title>Discovery in color</title>
    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-   
-
 </Head>
 <div style={{position:"sticky",top:0,zIndex:105}}>
 <div id='nav' style={{backgroundColor:navCol,boxShadow:navCol2,backdropFilter:navCol3}} className={styles.seccions}>
-          <h2 className={styles.logoText}>TOMBS</h2>
+          <h2 className={styles.logoText}><img style={{width:"120px",margin:0,padding:0,marginLeft:"10px",height:"80px"}} src="./assets/logoNft.png" alt="" /></h2>
           <div className={styles.parts}>
           <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
           <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About us</h7></Link>

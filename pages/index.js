@@ -144,15 +144,15 @@ export default function Home() {
 <div id='about' className={styles.about}>
 <div  style={{backgroundImage:`url(${bg.src})`}} className={styles.aboutText}>
 <p>
-<p className={styles.newH1}>About us:</p>
+<p className={styles.newH1}>About us</p>
 {"Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago."}</p>
 </div>
 </div>
 
 <div id='about' className={styles.about}>
-<div  style={{backgroundImage:`url(${bg3.src})`}} className={styles.aboutText}>
+<div  style={{backgroundImage:`url(${bg3.src})`}} className={styles.aboutText2}>
 <p>
-<p className={styles.newH1}>Overview:</p>
+<p className={styles.newH1}>Overview</p>
 Since we discovered how to record light over a century ago, our first attempts at image manipulation was to overcome the limitations of black & white 
 camera technology, so we could see the photograph in color. After all, color is the primary way we perceive the world around us. 
 Back then, skilled artisans laboriously experimented with a variety of methods – from painting to mechanical printing – to add the color back into an 
@@ -168,7 +168,7 @@ photographer might have seen at the moment of discovery.</p>
 
 <div style={{backgroundColor:"#8c8c8c"}} className={styles.nftsContainer}>
         <br />
-      <h1 className={styles.newH2} id='nfts'>Featured collection:</h1>
+      <h1 className={styles.newH3} id='nfts'>Featured collection</h1>
       <div className={styles.gifContainer}>
      <center>
      <Swiper
@@ -213,7 +213,7 @@ photographer might have seen at the moment of discovery.</p>
     </Swiper>
      </center>
       </div>
-      <p style={{margin:"5px",fontSize:"20px",marginTop:"-15px",marginBottom:"10px"}}>{"This project is done not to replace the original but to provide afresh perspective on the image. Often seeing these images with colour makes historical snapshots seemingly more current in their message."} <br /> {"There is no doubt that colour changes the balance and composition of the viewer's gaze, but it also opens up a wider world into the image."}</p>
+      <p style={{margin:"5px",fontSize:"20px",marginTop:"-15px",marginBottom:"10px"}}>{"This project is done not to replace the original but to provide a fresh perspective on the image. Often seeing these images with colour makes historical snapshots seemingly more current in their message."} <br /> {"There is no doubt that colour changes the balance and composition of the viewer's gaze, but it also opens up a wider world into the image."}</p>
       </div>
 
 
@@ -229,7 +229,7 @@ photographer might have seen at the moment of discovery.</p>
 
       <div className={styles.teamContainer}>
 <div className={styles.teamBackground}>
-<h1 className={styles.newH1} id='team'>Team:</h1>
+<h1 className={styles.newH1} id='team'>Team</h1>
 <div className={styles.profiles}>
   <div className={styles.profile}>
     <img src='./assets/image1.png' alt=""/>
@@ -300,7 +300,7 @@ photographer might have seen at the moment of discovery.</p>
     </div>
   </div>
 </div>
-<h1 className={styles.newH1} id='join'>Join us:</h1>
+<h1 className={styles.newH1} id='join'>Join us</h1>
 <div className={styles.socials}>
 <a href="https://web.facebook.com/Discoveryincolor" target="_blank" rel="noreferrer"><img src='./assets/facebook.png' alt="" /></a>
 <a href="https://www.instagram.com/discovery_incolor" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>

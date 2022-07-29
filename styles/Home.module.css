@@ -19,7 +19,7 @@
   .dblock{
     width: 500px;
     height: 500px;
-    object-fit: cover;
+    object-fit: contain;
   }
   .carousel{
     width:100%;
@@ -563,7 +563,7 @@
     .dblock{
       width: 420px;
       height: 420px;
-      object-fit: cover;
+      object-fit: contain;
     }
     .carousel{
       width:100%;

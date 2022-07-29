@@ -7,8 +7,14 @@ import bg from "../public/assets/about.jpg"
 import bg2 from "../public/assets/coloriz.png"
 import bg3 from "../public/assets/restore.jpg"
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel from 'react-bootstrap/Carousel';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y, EffectFade } from 'swiper';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 
 
 
@@ -149,47 +155,47 @@ export default function Home() {
       
       
      <center>
-     <Carousel className='carousel' style={{backgroundColor:"black"}} activeIndex={index2} onSelect={handleSelect}>
-      <Carousel.Item>
+
+     <Swiper
+      // install Swiper modules
+      modules={[Navigation, EffectFade]}
+      spaceBetween={50}
+      slidesPerView={1}
+      navigation
+      effect
+      speed={800}
+      loop
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
+      <SwiperSlide>
         <img
           className={styles.dblock}
           src='./assets/gif3.gif'
-          alt="First slide"
-        />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
+          alt="Second slide"
+        /></SwiperSlide>
+      <SwiperSlide>
+      <img
           className={styles.dblock}
           src='./assets/gif4.gif'
           alt="Second slide"
         />
-
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
+      </SwiperSlide>
+      <SwiperSlide>
+      <img
           className={styles.dblock}
           src='./assets/gif1.gif'
-          alt="Third slide"
+          alt="Second slide"
         />
-
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
+      </SwiperSlide>
+      <SwiperSlide>
+      <img
           className={styles.dblock}
           src='./assets/gif5.gif'
-          alt="Third slide"
+          alt="Second slide"
         />
-
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+      </SwiperSlide><br />
+    </Swiper>
      </center><br />
       </div>
       <p style={{margin:"5px",fontSize:"20px",marginTop:"-15px",marginBottom:"10px"}}>{"This project is done not to replace the original but to provide afresh perspective on the image. Often seeing these images with colour makes historical snapshots seemingly more current in their message."} <br /> {"There is no doubt that colour changes the balance and composition of the viewer's gaze, but it also opens up a wider world into the image."}</p>

@@ -222,7 +222,11 @@
   }
   .footer{
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Cinzel', serif !important;
+    font-size: 20px;
+    font-weight: bolder !important;
+    margin-left: 5px;
+
 
   }
   .cover{
@@ -477,6 +481,17 @@
      }
      .listContainer{
       display: flex ;
+    }
+    .pages{
+      cursor: pointer;
+      font-family: 'Cinzel', serif !important;
+      text-decoration: none;
+      color: rgb(59, 59, 59);
+      text-shadow: 3px 3px 4px rgb(53, 53, 53);
+      font-size: 22px;
+      font-weight: bolder;
+      margin-bottom: 10px;
+  
     }
     
   }

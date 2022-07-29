@@ -279,8 +279,8 @@ export default function Home() {
 <a href=" https://discord.gg/BVCqajgkWt" target="_blank" rel="noreferrer"><img src='./assets/discord.png' alt="" /></a>
 </div>
 </div>
-</div> 
-<h3 className={styles.footer}>©2022 DISCOVERY IN COLOR LLC </h3>
+</div> <br />
+<h7 className={styles.footer}>©2022 DISCOVERY IN COLOR LLC </h7>
 
 
 

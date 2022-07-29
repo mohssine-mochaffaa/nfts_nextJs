@@ -210,7 +210,7 @@ photographer might have seen at the moment of discovery.</p>
         />
       </SwiperSlide><br />
     </Swiper>
-     </center><br />
+     </center>
       </div>
       <p style={{margin:"5px",fontSize:"20px",marginTop:"-15px",marginBottom:"10px"}}>{"This project is done not to replace the original but to provide afresh perspective on the image. Often seeing these images with colour makes historical snapshots seemingly more current in their message."} <br /> {"There is no doubt that colour changes the balance and composition of the viewer's gaze, but it also opens up a wider world into the image."}</p>
       </div>

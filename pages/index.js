@@ -152,7 +152,7 @@ export default function Home() {
 <div id='about' className={styles.about}>
 <div  style={{backgroundImage:`url(${bg3.src})`}} className={styles.aboutText}>
 <p>
-<p className={styles.newH1}>The colorization process:</p>
+<p className={styles.newH2}>The colorization process:</p>
 Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago. <br />Since we discovered how to record light over a century ago, our first attempts at image manipulation was to overcome the limitations of black & white 
 camera technology, so we could see the photograph in color. After all, color is the primary way we perceive the world around us. 
 Back then, skilled artisans laboriously experimented with a variety of methods – from painting to mechanical printing – to add the color back into an 

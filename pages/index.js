@@ -289,8 +289,8 @@ export default function Home() {
 </div>
 </div>
 </div> <br />
-<h7 className={styles.footer}>©2022 DISCOVERY IN COLOR LLC </h7>
-
+<center><h2 className={styles.footer}>©2022 DISCOVERY IN COLOR LLC </h2>
+</center>
 
 
 

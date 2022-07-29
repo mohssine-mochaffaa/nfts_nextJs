@@ -65,11 +65,11 @@
   .list{
     background-color: rgb(226, 226, 226);
     width: 100%;
-    height: 300px;
+    height: max-content;
     flex-direction: column;
     align-items: center;
-    padding-top: 75px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 10px;
     position: absolute;
     z-index: 102;
     display: flex;
@@ -78,6 +78,10 @@
     overflow: hidden;
     font-family: 'Cinzel', serif;
 
+  }
+  .list .pages{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 4px rgb(41, 41, 41) !important;
   }
   .listContainer{
     display: none ;
@@ -628,7 +632,7 @@
     .dblock{
       width: 400px;
       height: 400px;
-      object-fit: cover;
+      object-fit: contain;
     }
     .carousel{
       width:100%;

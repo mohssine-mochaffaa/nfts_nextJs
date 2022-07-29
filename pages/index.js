@@ -142,20 +142,18 @@ export default function Home() {
 </div>
 </div>
 
-<div style={{backgroundImage:`url(${bg2.src})`}} className={styles.colorizeContainer}>
+<div style={{backgroundImage:`url(${bg3.src})`}} className={styles.colorizeContainer}>
 <div className={styles.proccesBackground}>
 <h1 className={styles.newH1}>The colorization process:</h1>
 <p>The colorization process uses digital tools to restore the damage that occurs to original negatives over time, then grafts individual layers of color into the original black and white photograph placing the viewer directly in the scene to provide a sense of realism and a glimpse at what the original photographer might have seen at the moment of discovery.</p>
 </div>
 </div>
 
-<h1 className={styles.newH1} id='nfts'>Featured collection:</h1>
-      <div className={styles.nftsContainer}>
+      <div style={{backgroundColor:"#757575"}} className={styles.nftsContainer}>
+        <br />
+      <h1 className={styles.newH2} id='nfts'>Featured collection:</h1>
       <div className={styles.gifContainer}>
-      
-      
      <center>
-
      <Swiper
       // install Swiper modules
       modules={[Navigation, EffectFade]}
@@ -204,7 +202,7 @@ export default function Home() {
 
 
 
-<div style={{backgroundImage:`url(${bg3.src})`}} className={styles.teamContainer}>
+<div className={styles.teamContainer}>
 <div className={styles.teamBackground}>
 <h1 className={styles.newH1} id='team'>Team:</h1>
 <div className={styles.profiles}>

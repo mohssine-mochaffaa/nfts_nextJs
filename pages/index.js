@@ -8,12 +8,13 @@ import bg2 from "../public/assets/coloriz.png"
 import bg3 from "../public/assets/restore.jpg"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y, EffectFade } from 'swiper';
+import { Navigation, EffectFade } from 'swiper';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { Parallax,Background  } from 'react-parallax';
 
 
 
@@ -110,10 +111,11 @@ export default function Home() {
           <h2 className={styles.logoText}><img style={{width:"120px",margin:0,padding:0,marginLeft:"10px",height:"80px"}} src="./assets/logoNft.png" alt="" /></h2>
           <div className={styles.parts}>
           <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
-          <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About us</h7></Link>
-          <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Featured</h7></Link>
+          <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About</h7></Link>
+          <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>The process</h7></Link>
+          <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Work</h7></Link>
           <Link className={styles.pages} to="team" spy={true} smooth={true}><h7>Team</h7></Link>
-          <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join us</h7></Link>
+          <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join</h7></Link>
             <img onClick={()=> toggleMenu()} className={styles.burger} src={myMenu} alt="" />
           </div>
         </div>
@@ -121,10 +123,11 @@ export default function Home() {
         <div style={{display:hide}} className={styles.listContainer}>
         <div className={styles.list}>          
         <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
-        <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About us</h7></Link>
-            <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Featured</h7></Link>
+        <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About</h7></Link>
+        <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>The process</h7></Link>
+            <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Work</h7></Link>
             <Link className={styles.pages} to="team" spy={true} smooth={true}><h7>Team</h7></Link>
-            <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join us</h7></Link>
+            <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join</h7></Link>
         </div>
         </div>
 </div>
@@ -141,34 +144,44 @@ export default function Home() {
       </div>
 
 
-<div id='about' className={styles.about}>
-<div  style={{backgroundImage:`url(${bg.src})`}} className={styles.aboutText}>
-<p>
-<p className={styles.newH1}>About us</p>
-{"Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago."}</p>
+<div className={styles.parallaxContainer}>
+<Parallax  blur={1} className={styles.parallaxImage}  bgImage={bg.src} strength={700}>
+  <div id='about' className={styles.parallaxText}>
+    <h1 className={styles.newH1}>About us</h1>
+  </div>
+</Parallax>
+<div>
+  <p>Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago.</p>
 </div>
-</div>
-
-<div id='about' className={styles.about}>
-<div  style={{backgroundImage:`url(${bg3.src})`}} className={styles.aboutText2}>
-<p>
-<p className={styles.newH1}>Overview</p>
-Since we discovered how to record light over a century ago, our first attempts at image manipulation was to overcome the limitations of black & white 
+<Parallax className={styles.parallaxImage} bgImage={bg3.src} strength={700}>
+<div id='overview' className={styles.parallaxText}>
+    <h1 className={styles.newH1}>The process</h1>
+  </div>
+</Parallax>
+<div>
+  <p>
+  Since we discovered how to record light over a century ago, our first attempts at image manipulation was to overcome the limitations of black & white 
 camera technology, so we could see the photograph in color. After all, color is the primary way we perceive the world around us. 
 Back then, skilled artisans laboriously experimented with a variety of methods – from painting to mechanical printing – to add the color back into an 
 original black white photograph manually, giving the photographs a stylised, but not realistic look.
 <h3 className={styles.newH2}>The colorization process:</h3>
 The colorization process uses digital tools to restore the damage that occurs to original negatives over time, then grafts individual layers of color 
 into the original black and white photograph placing the viewer directly in the scene to provide a sense of realism and a glimpse at what the original 
-photographer might have seen at the moment of discovery.</p>
+photographer might have seen at the moment of discovery.
+  </p>
 </div>
 </div>
 
 
 
-<div style={{backgroundColor:"#8c8c8c"}} className={styles.nftsContainer}>
-      <br />
-      <center><h1 className={styles.newH3} id='nfts'>Featured collection</h1></center>
+<Parallax className={styles.parallaxImage} bgImage={bg2.src} strength={800}>
+<div id='nfts' className={styles.parallaxText}>
+    <h1 className={styles.newH3}>Work</h1>
+  </div>
+</Parallax>
+
+
+<div style={{backgroundColor:"#9e9e9e"}} className={styles.nftsContainer}>
       <div className={styles.gifContainer}>
      <center>
      <Swiper
@@ -228,7 +241,7 @@ photographer might have seen at the moment of discovery.</p>
 
       <div className={styles.teamContainer}>
 <div className={styles.teamBackground}>
-<h1 className={styles.newH1} id='team'>Team</h1>
+<h1 className={styles.newH3} id='team'>Team</h1><br /><br /><br /><br />
 <div className={styles.profiles}>
   <div className={styles.profile}>
     <img src='./assets/image1.png' alt=""/>
@@ -299,7 +312,7 @@ photographer might have seen at the moment of discovery.</p>
     </div>
   </div>
 </div>
-<h1 className={styles.newH1} id='join'>Join us</h1>
+<h1 className={styles.newH3} id='join'>Join us</h1><br /><br /><br /><br />
 <div className={styles.socials}>
 <a href="https://web.facebook.com/Discoveryincolor" target="_blank" rel="noreferrer"><img src='./assets/facebook.png' alt="" /></a>
 <a href="https://www.instagram.com/discovery_incolor" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>

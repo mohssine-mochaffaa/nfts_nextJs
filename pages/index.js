@@ -145,7 +145,7 @@ export default function Home() {
 
 
 <div className={styles.parallaxContainer}>
-<Parallax  blur={1} className={styles.parallaxImage}  bgImage={bg.src} strength={700}>
+<Parallax  blur={1} className={styles.parallaxImage}  bgImage={bg.src} strength={900}>
   <div id='about' className={styles.parallaxText}>
     <h1 className={styles.newH1}>About us</h1>
   </div>
@@ -153,7 +153,7 @@ export default function Home() {
 <div>
   <p>Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago.</p>
 </div>
-<Parallax className={styles.parallaxImage} bgImage={bg3.src} strength={700}>
+<Parallax className={styles.parallaxImage} bgImage={bg3.src} strength={900}>
 <div id='overview' className={styles.parallaxText}>
     <h1 className={styles.newH1}>The process</h1>
   </div>
@@ -174,7 +174,7 @@ photographer might have seen at the moment of discovery.
 
 
 
-<Parallax className={styles.parallaxImage} bgImage={bg2.src} strength={800}>
+<Parallax className={styles.parallaxImage} bgImage={bg2.src} strength={900}>
 <div id='nfts' className={styles.parallaxText}>
     <h1 className={styles.newH3}>Work</h1>
   </div>

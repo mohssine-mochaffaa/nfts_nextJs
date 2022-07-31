@@ -108,7 +108,7 @@ export default function Home() {
 </Head>
 <div style={{position:"sticky",top:0,zIndex:105}}>
 <div id='nav' style={{backgroundColor:navCol,boxShadow:navCol2,backdropFilter:navCol3}} className={styles.seccions}>
-          <h2 className={styles.logoText}><img style={{width:"120px",margin:0,padding:0,marginLeft:"10px",height:"80px"}} src="./assets/logoNft.png" alt="" /></h2>
+          <h2 className={styles.logoText}><img style={{width:"120px",margin:0,padding:0,marginLeft:"10px",height:"80px"}} src="./assets/footerLogo.png" alt="" /></h2>
           <div className={styles.parts}>
           <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
           <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About</h7></Link>

@@ -112,7 +112,7 @@ export default function Home() {
           <div className={styles.parts}>
           <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
           <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About</h7></Link>
-          <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>Process</h7></Link>
+          <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>Cprocess</h7></Link>
           <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Work</h7></Link>
           <Link className={styles.pages} to="team" spy={true} smooth={true}><h7>Team</h7></Link>
           <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join</h7></Link>
@@ -124,7 +124,7 @@ export default function Home() {
         <div className={styles.list}>          
         <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
         <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About</h7></Link>
-        <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>Process</h7></Link>
+        <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>Cprocess</h7></Link>
             <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Work</h7></Link>
             <Link className={styles.pages} to="team" spy={true} smooth={true}><h7>Team</h7></Link>
             <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join</h7></Link>
@@ -155,7 +155,7 @@ export default function Home() {
 </div>
 <Parallax className={styles.parallaxImage} bgImage={bg3.src} strength={800}>
 <div id='overview' className={styles.parallaxText}>
-    <h1 className={styles.newH1}>Process</h1>
+    <h1 className={styles.newH1}>Cprocess</h1>
   </div>
 </Parallax>
 <div style={{backgroundColor:"background-color:rgba(240, 248, 255, 0.849)"}}>

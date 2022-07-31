@@ -284,8 +284,9 @@
   }
   @media screen and (max-width:550px) {
     .parallaxImage{
-      position: relative;
+      position: absolute;
       height: 50vh;
+      scroll-behavior: smooth;
       }
     .parallaxText{
       display: flex;

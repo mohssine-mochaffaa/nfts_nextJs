@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import TextTransition,{presets} from 'react-text-transition';
 import {Link} from 'react-scroll';
 import bg from "../public/assets/about.jpg"
-import bg2 from "../public/assets/coloriz.png"
+import bg2 from "../public/assets/coloriz.jpeg"
 import bg3 from "../public/assets/restore.jpg"
 
 import { Swiper, SwiperSlide } from 'swiper/react';

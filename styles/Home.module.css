@@ -181,7 +181,13 @@
     align-items: center;
     width: 90%;
   }
-  
+  .logoo{
+    width: 150px;
+    margin: 0px;
+    padding: 0px;
+    margin-left :10px;
+    height:70px;
+  }
 
 
 
@@ -280,6 +286,13 @@
   @media screen and (max-width:1232px){
     .bigSeccesion{
       flex-wrap: wrap;
+    }
+    .logoo{
+      width: 100px;
+      margin: 0px;
+      padding: 0px;
+      margin-left :10px;
+      height:50px;
     }
   }
   @media screen and (max-width:550px) {

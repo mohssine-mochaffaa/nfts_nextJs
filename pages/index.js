@@ -299,7 +299,7 @@ photographer might have seen at the moment of discovery.
     </div>
   </div>
   <div className={styles.profile}>
-    <img className='rot' src='./assets/image6.jpeg' alt=""/>
+    <img className='rota' src='./assets/tata2.png' alt=""/>
     <div className={styles.name}>Tata</div>
     <div className={styles.job}>Co-founder</div>
     <div className={styles.media}>

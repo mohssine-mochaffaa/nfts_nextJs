@@ -112,7 +112,7 @@ export default function Home() {
           <div className={styles.parts}>
           <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
           <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About</h7></Link>
-          <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>The process</h7></Link>
+          <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>Process</h7></Link>
           <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Work</h7></Link>
           <Link className={styles.pages} to="team" spy={true} smooth={true}><h7>Team</h7></Link>
           <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join</h7></Link>
@@ -124,7 +124,7 @@ export default function Home() {
         <div className={styles.list}>          
         <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
         <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About</h7></Link>
-        <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>The process</h7></Link>
+        <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>Process</h7></Link>
             <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Work</h7></Link>
             <Link className={styles.pages} to="team" spy={true} smooth={true}><h7>Team</h7></Link>
             <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join</h7></Link>
@@ -147,18 +147,18 @@ export default function Home() {
 <div className={styles.parallaxContainer}>
 <Parallax  blur={1} className={styles.parallaxImage}  bgImage={bg.src} strength={800}>
   <div id='about' className={styles.parallaxText}>
-    <h1 className={styles.newH1}>About us</h1>
+    <h1 className={styles.newH1}>About</h1>
   </div>
 </Parallax>
-<div>
+<div style={{backgroundColor:"background-color:rgba(240, 248, 255, 0.849)"}}>
   <p>Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago.</p>
 </div>
 <Parallax className={styles.parallaxImage} bgImage={bg3.src} strength={800}>
 <div id='overview' className={styles.parallaxText}>
-    <h1 className={styles.newH1}>The process</h1>
+    <h1 className={styles.newH1}>Process</h1>
   </div>
 </Parallax>
-<div>
+<div style={{backgroundColor:"background-color:rgba(240, 248, 255, 0.849)"}}>
   <p>
   Since we discovered how to record light over a century ago, our first attempts at image manipulation was to overcome the limitations of black & white 
 camera technology, so we could see the photograph in color. After all, color is the primary way we perceive the world around us. 
@@ -181,49 +181,46 @@ photographer might have seen at the moment of discovery.
 </Parallax>
 
 
-<div style={{backgroundColor:"#9e9e9e"}} className={styles.nftsContainer}>
+<div className={styles.nftsContainer}>
       <div className={styles.gifContainer}>
-     <center>
-     <Swiper
-      modules={[Navigation, EffectFade]}
-      spaceBetween={50}
-      slidesPerView={1}
-      navigation
-      effect
-      speed={800}
-      loop
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
-    >
-      <SwiperSlide>
-        <img
-          className={styles.dblock}
-          src='./assets/gif3.gif'
-          alt="Second slide"
-        /></SwiperSlide>
-      <SwiperSlide>
-      <img
-          className={styles.dblock}
-          src='./assets/gif4.gif'
-          alt="Second slide"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-      <img
-          className={styles.dblock}
-          src='./assets/gif1.gif'
-          alt="Second slide"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-      <img
-          className={styles.dblock}
-          src='./assets/gif5.gif'
-          alt="Second slide"
-        />
-      </SwiperSlide>
-    </Swiper>
-     </center>
+
+
+    <center>
+    <div className={styles.gify}>
+      <div>
+      <img src="./assets/gif3.gif" alt="" />
+      </div>
+      <div>
+      <img src="./assets/gif4.gif" alt="" />
+      </div>
+     </div>
+    <div className={styles.bigSeccesion}>
+    <div className={styles.gify2}>
+      <div>
+      <img src="./assets/gif6.png" alt="" />
+      </div>
+      <div>
+      <img src="./assets/gif5.png" alt="" />
+      </div>
+     </div>
+     <div className={styles.gify2}>
+      <div>
+      <img src="./assets/gif7.png" alt="" />
+      </div>
+      <div>
+      <img src="./assets/gif8.png" alt="" />
+      </div>
+     </div>
+    </div>
+    </center>
+
+
+
+
+
+
+
+
       </div>
       <p style={{margin:"5px",fontSize:"20px",marginTop:"-15px",marginBottom:"10px"}}>{"This project is done not to replace the original but to provide a fresh perspective on the image. Often seeing these images with colour makes historical snapshots seemingly more current in their message."} <br /> {"There is no doubt that colour changes the balance and composition of the viewer's gaze, but it also opens up a wider world into the image."}</p>
       </div>

@@ -67,7 +67,7 @@ export default function Home() {
     const myInterval = setInterval(()=>{
       setCover('none');
       document.body.style.overflowY = "scroll";
-    },500)
+    },5000)
     return ()=> clearInterval(myInterval);
   }
   useEffect(()=>{

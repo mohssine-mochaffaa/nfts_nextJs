@@ -286,7 +286,7 @@
   @media screen and (max-width:420px) {
     .imageText1{
       position: absolute;
-      top: 50%;
+      top: 55%;
       left: 10px;
       text-align: start;
     }
@@ -296,6 +296,15 @@
       left: 10px;
       text-align: start;
     }
+  }
+  @media screen and (max-width:405px) {
+    .imageText1{
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      text-align: start;
+    }
+    
   }
 
 
@@ -457,17 +466,32 @@
       width: fit-content;
     }
   }
+  @media screen and (max-width:523px){
+    .imageText3{
+      top: 45%;
+      width: fit-content;
+      text-align: start;
+      left: -12px;
+    }
+    .imageText4{
+      position: absolute;
+      top: 88px;
+      left: -12px;
+      text-align: start;
+      width: fit-content;
+    }
+  }
   @media screen and (max-width:401px){
     .imageText3{
       top: 45%;
       width: fit-content;
       text-align: start;
-      left: -20px;
+      left: -12px;
     }
     .imageText4{
       position: absolute;
       top: 88px;
-      left: -20px;
+      left: -12px;
       text-align: start;
       width: fit-content;
     }
@@ -477,12 +501,12 @@
       top: 45%;
       width: fit-content;
       text-align: start;
-      left: -20px;
+      left: -12px;
     }
     .imageText4{
       position: absolute;
       top: 65px;
-      left: -20px;
+      left: -12px;
       text-align: start;
       width: fit-content;
     }

@@ -67,7 +67,7 @@ export default function Home() {
     const myInterval = setInterval(()=>{
       setCover('none');
       document.body.style.overflowY = "scroll";
-    },5000)
+    },500)
     return ()=> clearInterval(myInterval);
   }
   useEffect(()=>{
@@ -190,15 +190,35 @@ photographer might have seen at the moment of discovery.
 
     <center>
     <div className={styles.gify}>
-      <div>
+      <div className={styles.img1}>
       <img src="./assets/gif3.gif" alt="" />
+      <pp className={styles.imageText1}>October 1925 <br />
+          Burial chamber <br />
+          Second coffin ( the lied was removed revealing another shroud) <br />
+          Valley of the Kings,Luxor,Egypt</pp>
       </div>
-      <div>
+
+      <div className={styles.img1}>
       <img src="./assets/gif4.gif" alt="" />
+      <pp className={styles.imageText2}>October 1925 <br />
+          Burial chamber <br />
+          Second coffin ( hoisted with a pulley system and made of wood,covered in gold and decorated with iridescent blue, green and red glass inlay). <br />
+          Valley of the Kings,Luxor,Egypt
+      </pp>
       </div>
      </div>
+
+
+
+
     <div className={styles.bigSeccesion}>
     <div className={styles.gify2}>
+    <pp className={styles.imageText3}>
+    October 1925 <br />
+Burial chamber <br />
+First (outermost) shrine ( Howard Carter working on the lid of the second (middle) coffin). <br />
+Valley of the Kings,Luxor,Egypt
+    </pp>
       <div>
       <img src="./assets/gif6.png" alt="" />
       </div>
@@ -207,6 +227,12 @@ photographer might have seen at the moment of discovery.
       </div>
      </div>
      <div className={styles.gify2}>
+     <pp className={styles.imageText4}>
+     October 1925 <br />
+Tutankhamun's First (outermost) coffin  (cornflowers and olives leaves adorning the young king's forehead). <br />
+Burial chamber <br />
+Valley of the Kings,Luxor,Egypt <br />
+      </pp>
       <div>
       <img src="./assets/gif7.png" alt="" />
       </div>

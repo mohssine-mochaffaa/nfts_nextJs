@@ -173,6 +173,10 @@
     width: 90%;
     margin-bottom: 10px;
   }
+  .img1{
+    position: relative;
+  }
+  
   .gify img{
     height: 400px;
     width: 550px;
@@ -182,6 +186,8 @@
     display: flex;
     width: 90%;
     justify-content: center;
+    position: relative;
+
   }
   .gify2 img{
     height: 400px;
@@ -202,7 +208,93 @@
     margin-left :10px;
     height:70px;
   }
+  .imageText1{
+    position: absolute;
+    top: 65%;
+    left: 10px;
+    text-align: start;
+  }
+  .imageText2{
+    position: absolute;
+    top: 52%;
+    left: 10px;
+    text-align: start;
+  }
+  .imageText3{
+    position: absolute;
+    top: 58%;
+    left: 35px;
+    text-align: start;
+    
+  }
+  .imageText4{
+    position: absolute;
+    top: 230px;
+    left: 35px;
+    text-align: start;
+  }
+  @media screen and (max-width:1310px){
+    .imageText3{
+      position: absolute;
+      top: 58%;
+      left: 25px;
+      text-align: start;
+    }
+  }
+  @media screen and (max-width:1255px){
+    .imageText3{
+      position: absolute;
+      top: 58%;
+      left: 10px;
+      text-align: start;
+    }
+  }
+  @media screen and (max-width:1232px){
+    .imageText3{
+      top: 58%;
+      width: 512px;
+      text-align: start;
+      left: -20px;
+    }
+    .imageText4{
+      position: absolute;
+      top: 230px;
+      left: -20px;
+      text-align: start;
+    }
+    .bigSeccesion{
+      width:min-content;
 
+    }
+  }
+  @media screen and (max-width:464px) {
+    .imageText1{
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      text-align: start;
+    }
+    .imageText2{
+      position: absolute;
+      top: 40%;
+      left: 10px;
+      text-align: start;
+    }
+  }
+  @media screen and (max-width:420px) {
+    .imageText1{
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      text-align: start;
+    }
+    .imageText2{
+      position: absolute;
+      top: 35%;
+      left: 10px;
+      text-align: start;
+    }
+  }
 
 
 

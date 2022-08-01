@@ -20,8 +20,41 @@ p{
   font-family: 'Cinzel', serif;
   text-shadow: 1.5px 1px 4px rgb(53, 53, 53);
   background-color:rgba(240, 248, 255, 0.849);
-  padding: 10px;
-                     
+  padding: 10px;  
+}
+pp{
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  letter-spacing: 1px;      
+  font-family: 'Cinzel', serif;
+  text-shadow: 2px 2px 1.5px rgb(0, 0, 0);
+}
+@media screen and (max-width:550px) {
+  pp{
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    letter-spacing: 1px;      
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 1.5px rgb(0, 0, 0);
+    padding: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+@media screen and (max-width:360px) {
+  pp{
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 1px;      
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 3px 1px rgb(0, 0, 0);
+    padding: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
 }
 
 

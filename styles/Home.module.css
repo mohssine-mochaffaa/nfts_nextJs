@@ -481,9 +481,39 @@
       width: fit-content;
     }
   }
+  @media screen and (max-width:413px){
+    .imageText3{
+      top: 38%;
+      width: fit-content;
+      text-align: start;
+      left: -12px;
+    }
+    .imageText4{
+      position: absolute;
+      top: 105px;
+      left: -12px;
+      text-align: start;
+      width: fit-content;
+    }
+  }
+  @media screen and (max-width:411px){
+    .imageText3{
+      top: 38%;
+      width: fit-content;
+      text-align: start;
+      left: -12px;
+    }
+    .imageText4{
+      position: absolute;
+      top: 105px;
+      left: -12px;
+      text-align: start;
+      width: fit-content;
+    }
+  }
   @media screen and (max-width:401px){
     .imageText3{
-      top: 45%;
+      top: 38%;
       width: fit-content;
       text-align: start;
       left: -12px;
@@ -498,7 +528,7 @@
   }
   @media screen and (max-width:387px){
     .imageText3{
-      top: 45%;
+      top: 38%;
       width: fit-content;
       text-align: start;
       left: -12px;

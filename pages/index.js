@@ -158,7 +158,7 @@ export default function Home() {
 </div>
 <Parallax className={styles.parallaxImage} bgImage={bg3.src} strength={800}>
 <div id='overview' className={styles.parallaxText}>
-    <h1 className={styles.newH1}>Cprocess</h1>
+    <h1 className={styles.newH1}>C-process</h1>
   </div>
 </Parallax>
 <div style={{backgroundColor:"background-color:rgba(240, 248, 255, 0.849)"}}>

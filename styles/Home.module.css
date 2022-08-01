@@ -91,16 +91,18 @@
     
   }
   .introText{
-    font-size: 50px;
+    font-size: 80px;
     color: rgb(255, 255, 255);
     font-weight: bolder;
     margin-left: 15px;
-    text-shadow: 5px 5px 2px rgb(24, 24, 24);
+    text-shadow: 3px 2px 2px rgb(63, 63, 63);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Libre Baskerville', serif;
+        font-style: normal;
+    font-weight: 700;
   
   }
 
@@ -146,6 +148,15 @@
   }
   .teamContainer{
     background-color: rgba(240, 248, 255, 0.849);
+    box-shadow:3px 8px 32px  rgba(54, 54, 54, 0.767);
+    backdrop-filter:blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+  }
+  .teamBackground{
+    background-color: rgba(240, 248, 255, 0.185);
+    box-shadow:3px 8px 32px  rgba(54, 54, 54, 0.767);
+    backdrop-filter:blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
   }
   .nftsContainer{
     align-items: center;

@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react';
 import styles from '../styles/Home.module.css'
 import TextTransition,{presets} from 'react-text-transition';
 import {Link} from 'react-scroll';
-import bg from "../public/assets/about.jpg"
+import bg from "../public/assets/about.jpeg"
+import bg4 from "../public/assets/about.jpg"
 import bg2 from "../public/assets/coloriz.jpeg"
 import bg3 from "../public/assets/restore.jpg"
 
@@ -103,6 +104,8 @@ export default function Home() {
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
 <meta name="msapplication-TileColor" content="#da532c"/>
 <meta name="theme-color" content="#ffffff"/>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet"/>
+
   <title>Discovery in color</title>
    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 </Head>
@@ -112,8 +115,8 @@ export default function Home() {
           <div className={styles.parts}>
           <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
           <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About</h7></Link>
-          <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>Cprocess</h7></Link>
-          <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Work</h7></Link>
+          <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>C-process</h7></Link>
+          <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Gallery</h7></Link>
           <Link className={styles.pages} to="team" spy={true} smooth={true}><h7>Team</h7></Link>
           <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join</h7></Link>
             <img onClick={()=> toggleMenu()} className={styles.burger} src={myMenu} alt="" />
@@ -124,8 +127,8 @@ export default function Home() {
         <div className={styles.list}>          
         <Link className={styles.pages} to="home" spy={true} smooth={true}><h7>Home</h7></Link>
         <Link className={styles.pages} to="about" spy={true} smooth={true}><h7>About</h7></Link>
-        <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>Cprocess</h7></Link>
-            <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Work</h7></Link>
+        <Link className={styles.pages} to="overview" spy={true} smooth={true}><h7>C-process</h7></Link>
+            <Link className={styles.pages} to="nfts" spy={true} smooth={true}><h7>Gallery</h7></Link>
             <Link className={styles.pages} to="team" spy={true} smooth={true}><h7>Team</h7></Link>
             <Link className={styles.pages} to="join" spy={true} smooth={true}><h7>Join</h7></Link>
         </div>
@@ -151,7 +154,7 @@ export default function Home() {
   </div>
 </Parallax>
 <div style={{backgroundColor:"background-color:rgba(240, 248, 255, 0.849)"}}>
-  <p>Discovery in Color is an NFT project made by a team of colorists from around the world pationated with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago.</p>
+  <p>Discovery in Color is an NFT project made by a team of colorists from around the world passionate with history and addiction of clorization ,in a celebration of the 100 year anniversary of the discovery of all time . with a collection of rare colorized pictures from the discovery of the king Tutankamuns tomb 1925, taken from Harry Burton's original black and withe glass negatives . Now colorized ,thanks to colonization we can now see them exactly as they were discovered by Howard Carter and the local Egyptian people 100 years ago.</p>
 </div>
 <Parallax className={styles.parallaxImage} bgImage={bg3.src} strength={800}>
 <div id='overview' className={styles.parallaxText}>
@@ -162,8 +165,8 @@ export default function Home() {
   <p>
   Since we discovered how to record light over a century ago, our first attempts at image manipulation was to overcome the limitations of black & white 
 camera technology, so we could see the photograph in color. After all, color is the primary way we perceive the world around us. 
-Back then, skilled artisans laboriously experimented with a variety of methods – from painting to mechanical printing – to add the color back into an 
-original black white photograph manually, giving the photographs a stylised, but not realistic look.
+Back then, skilled artisans laboriously experimented with a variety of methods ( from painting to mechanical printing ) to add the color back into an 
+original black white photograph manually, giving the photographs a stylised, but not realistic look. Today this craft known popularly as <span style={{color:"red"}}>colorization</span>
 <h3 className={styles.newH2}>The colorization process:</h3>
 The colorization process uses digital tools to restore the damage that occurs to original negatives over time, then grafts individual layers of color 
 into the original black and white photograph placing the viewer directly in the scene to provide a sense of realism and a glimpse at what the original 
@@ -176,7 +179,7 @@ photographer might have seen at the moment of discovery.
 
 <Parallax className={styles.parallaxImage} bgImage={bg2.src} strength={800}>
 <div id='nfts' className={styles.parallaxText}>
-    <h1 className={styles.newH3}>Work</h1>
+    <h1 className={styles.newH3}>Gallery</h1>
   </div>
 </Parallax>
 
@@ -236,8 +239,8 @@ photographer might have seen at the moment of discovery.
 
 
 
-      <div className={styles.teamContainer}>
-<div className={styles.teamBackground}>
+      <div style={{backgroundImage:`url(${bg4.src})`,backgroundSize:"cover",backgroundRepeat:"no-repeat"}} className={styles.teamContainer}>
+<div className={styles.teamBackground}><br />
 <h1 className={styles.newH3} id='team'>Team</h1><br /><br /><br /><br />
 <div className={styles.profiles}>
   <div className={styles.profile}>

@@ -270,7 +270,7 @@ Valley of the Kings,Luxor,Egypt <br />
 <h1 className={styles.newH3} id='team'>Team</h1><br /><br /><br /><br />
 <div className={styles.profiles}>
   <div className={styles.profile}>
-    <img src='./assets/image1.jpg' alt=""/>
+    <img src='./assets/imagee1.jpg' alt=""/>
     <div className={styles.name}>Creed</div>
     <div className={styles.job}>Colorist</div>
     <div className={styles.media}>

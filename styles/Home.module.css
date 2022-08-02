@@ -210,28 +210,31 @@
   }
   .imageText1{
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 10px;
     text-align: start;
   }
   .imageText2{
     position: absolute;
-    top: 52%;
+    top: 65%;
     left: 10px;
     text-align: start;
+
   }
   .imageText3{
     position: absolute;
-    top: 58%;
+    top: 70%;
     left: 35px;
     text-align: start;
-    
+margin-right: 30px;
   }
   .imageText4{
     position: absolute;
-    top: 230px;
+    top: 65%;
     left: 35px;
     text-align: start;
+    margin-right: 30px;
+
   }
   @media screen and (max-width:1310px){
     .imageText3{
@@ -906,5 +909,14 @@
     }
 
   }
-
-  
+.date{
+  font-size: 21px;
+  font-weight: 100;
+font-family: monospace;
+}
+.single{
+  color: goldenrod;
+  font-family: monospace;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px rgb(177, 177, 177);
+}

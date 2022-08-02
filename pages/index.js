@@ -166,7 +166,7 @@ export default function Home() {
   Since we discovered how to record light over a century ago, our first attempts at image manipulation was to overcome the limitations of black & white 
 camera technology, so we could see the photograph in color. After all, color is the primary way we perceive the world around us. 
 Back then, skilled artisans laboriously experimented with a variety of methods ( from painting to mechanical printing ) to add the color back into an 
-original black white photograph manually, giving the photographs a stylised, but not realistic look. Today this craft known popularly as <span style={{color:"red"}}>colorization</span>
+original black white photograph manually, giving the photographs a stylised, but not realistic look. Today this craft known popularly as <span className={styles.single}>colorization</span>
 <h3 className={styles.newH2}>The colorization process:</h3>
 The colorization process uses digital tools to restore the damage that occurs to original negatives over time, then grafts individual layers of color 
 into the original black and white photograph placing the viewer directly in the scene to provide a sense of realism and a glimpse at what the original 
@@ -192,16 +192,16 @@ photographer might have seen at the moment of discovery.
     <div className={styles.gify}>
       <div className={styles.img1}>
       <img src="./assets/gif3.gif" alt="" />
-      <pp className={styles.imageText1}>October 1925 <br />
-          Burial chamber <br />
+      <pp className={styles.imageText1}> <o className={styles.date}>October 1925</o> <br />
+      <strong>Burial chamber </strong> <br />
           Second coffin ( the lied was removed revealing another shroud) <br />
           Valley of the Kings,Luxor,Egypt</pp>
       </div>
 
       <div className={styles.img1}>
       <img src="./assets/gif4.gif" alt="" />
-      <pp className={styles.imageText2}>October 1925 <br />
-          Burial chamber <br />
+      <pp className={styles.imageText2}> <o className={styles.date}>October 1925</o> <br />
+      <strong>Burial chamber </strong> <br />
           Second coffin ( hoisted with a pulley system and made of wood,covered in gold and decorated with iridescent blue, green and red glass inlay). <br />
           Valley of the Kings,Luxor,Egypt
       </pp>
@@ -214,8 +214,8 @@ photographer might have seen at the moment of discovery.
     <div className={styles.bigSeccesion}>
     <div className={styles.gify2}>
     <pp className={styles.imageText3}>
-    October 1925 <br />
-Burial chamber <br />
+    <o className={styles.date}>October 1925</o> <br />
+    <strong>Burial chamber </strong> <br />
 First (outermost) shrine ( Howard Carter working on the lid of the second (middle) coffin). <br />
 Valley of the Kings,Luxor,Egypt
     </pp>
@@ -228,7 +228,8 @@ Valley of the Kings,Luxor,Egypt
      </div>
      <div className={styles.gify2}>
      <pp className={styles.imageText4}>
-     October 1925 <br />
+     <o className={styles.date}>October 1925</o> <br />
+     <strong>Burial chamber </strong> <br />
 Tutankhamun's First (outermost) coffin  (cornflowers and olives leaves adorning the young king's forehead). <br />
 Burial chamber <br />
 Valley of the Kings,Luxor,Egypt <br />

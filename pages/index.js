@@ -231,7 +231,6 @@ Valley of the Kings,Luxor,Egypt
      <o className={styles.date}>October 1925</o> <br />
      <strong>Burial chamber </strong> <br />
 Tutankhamun's First (outermost) coffin  (cornflowers and olives leaves adorning the young king's forehead). <br />
-Burial chamber <br />
 Valley of the Kings,Luxor,Egypt <br />
       </pp>
       <div>

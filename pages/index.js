@@ -166,7 +166,7 @@ export default function Home() {
   Since we discovered how to record light over a century ago, our first attempts at image manipulation was to overcome the limitations of black & white 
 camera technology, so we could see the photograph in color. After all, color is the primary way we perceive the world around us. 
 Back then, skilled artisans laboriously experimented with a variety of methods ( from painting to mechanical printing ) to add the color back into an 
-original black white photograph manually, giving the photographs a stylised, but not realistic look. Today this craft known popularly as <span className={styles.single}>colorization</span>
+original black white photograph manually, giving the photographs a stylised, but not realistic look. Today this craft known popularly as <span className={styles.single}>colorization</span> .
 <h3 className={styles.newH2}>The colorization process:</h3>
 The colorization process uses digital tools to restore the damage that occurs to original negatives over time, then grafts individual layers of color 
 into the original black and white photograph placing the viewer directly in the scene to provide a sense of realism and a glimpse at what the original 

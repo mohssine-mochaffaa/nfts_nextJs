@@ -288,7 +288,10 @@ margin-right: 30px;
   }
   @media screen and (max-width:500px){
 .gif{
-  height: 80vh;
+  height: 60vh;
+}
+.intro{
+  margin-top: -80px;
 }
   }
   @media screen and (max-width:464px) {

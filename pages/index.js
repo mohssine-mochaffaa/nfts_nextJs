@@ -16,7 +16,47 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Parallax,Background  } from 'react-parallax';
+import MailchimpSubscribe from "react-mailchimp-subscribe"
 
+
+const urli = "https://bk.us11.list-manage.com/subscribe/post?u=641dc946a77949c8ba1c66c57&amp;id=bda92c0c73&amp;f_id=000498e0f0"
+
+const CustomForm = ({ status, message, onValidated }) => {
+  let email, name;
+  const submit = () =>
+    email &&
+    name &&
+    email.value.indexOf("@") > -1 &&
+    onValidated({
+      EMAIL: email.value,
+      NAME: name.value
+    });
+
+  return (
+    <div
+      style={{
+        background: "#efefef",
+        borderRadius: 2,
+        padding: 10,
+        display: "inline-block"
+      }}
+    >
+      {status === "sending" && <div style={{ color: "blue",fontFamily:"cursive" }}>sending...</div>}
+      {status === "error" && (
+        <div
+          style={{ color: "red",fontFamily:"sans-serif" }}
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
+      {status === "success" && (
+        <div
+          style={{ color: "green",fontFamily:"sans-serif" }}
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
+    </div>
+  );
+};
 
 
 
@@ -28,6 +68,7 @@ export default function Home() {
     "Documenting the discovery of king tut's tomb 100 years ago",
     "Comming soon..."
   ];
+  
   
   const [index,setIndex] = useState(0);
   const [toggle,setToggle] = useState(false)
@@ -327,6 +368,23 @@ Valley of the Kings,Luxor,Egypt <br />
 </div>
 </div>
 <div>
+  <br /><br />
+  <center>
+  <div className={styles.emailForm}>
+        <h1 style={{fontFamily:"sans-serif"}}>Subscribe now!</h1>
+        <MailchimpSubscribe url={urli} />
+        <MailchimpSubscribe
+          url={urli}
+          render={({ subscribe, status, message }) => (
+            <CustomForm
+              status={status}
+              message={message}
+              onValidated={formData => subscribe(formData)}
+            />
+          )}
+        />
+      </div>
+  </center>
   <center><h2 className={styles.footer}>©2022 DISCOVERY IN COLOR LLC</h2> <img style={{width:"200px",marginTop:"-50px"}} src="./assets/footerLogo.png" alt="" /></center>
 </div>
 

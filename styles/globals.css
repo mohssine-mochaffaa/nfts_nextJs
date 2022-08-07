@@ -63,7 +63,17 @@ strong{
   }
 }
 
-
+input{
+  height: 30px;
+  width: 70%;
+  outline: none;
+}
+button{
+  background-color: rgb(208, 255, 0);
+  height: 35px;
+  border: 1px solid gray;
+  margin-left: 5px;
+}
 .profiles2{
   display: flex;
   justify-content: space-around;

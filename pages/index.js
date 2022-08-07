@@ -270,27 +270,6 @@ Valley of the Kings,Luxor,Egypt <br />
 <h1 className={styles.newH3} id='team'>Team</h1><br /><br /><br /><br />
 <div className={styles.profiles}>
   <div className={styles.profile}>
-    <img src='./assets/imagee1.jpg' alt=""/>
-    <div className={styles.name}>Creed</div>
-    <div className={styles.job}>Colorist</div>
-    <div className={styles.media}>
-      <a href="https://instagram.com/maximus.photo_restoral.zone?igshid=MDI0Mzk1ZWY=" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>
-      <a href=" https://discord.gg/MAXIMUS#2958" target="_blank" rel="noreferrer"><img src='./assets/discord.png' alt="" /></a>
-
-    </div>
-
-  </div>
-  <div className={styles.profile}>
-    <img src='./assets/image2.jpeg' alt=""/>
-    <div className={styles.name}>Theodore</div>
-    <div className={styles.job}>Photographer</div>
-    <div className={styles.media}>
-      <a href="https://www.facebook.com/PhotoRestorationRescue" target="_blank" rel="noreferrer"><img src='./assets/facebook.png' alt="" /></a>
-      <a href="https://www.instagram.com/photo_restoration_rescue/" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>
-      <a href="https://www.linkedin.com/in/theodore-photo-restoration-service-melbourne-4a55a2211/" target="_blank" rel="noreferrer"><img src='./assets/linkedin.png' alt="" /></a>
-    </div>
-  </div>
-  <div className={styles.profile}>
     <img src='./assets/image3.jpeg' alt=""/>
     <div className={styles.name}>Saira</div>
     <div className={styles.job}>Digital colorist</div>

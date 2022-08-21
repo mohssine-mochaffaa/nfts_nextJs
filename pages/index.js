@@ -319,16 +319,7 @@ Valley of the Kings,Luxor,Egypt <br />
       <a href="https://www.reddit.com/user/Sairinha/" target="_blank" rel="noreferrer"><img src='./assets/reddit.png' alt="" /></a>
     </div>
   </div>
-  <div className={styles.profile}>
-    <img src='./assets/image4.jpeg' alt=""/>
-    <div className={styles.name}>Duan</div>
-    <div className={styles.job}>Digital colorist</div>
-    <div className={styles.media}>
-    <a href="https://www.facebook.com/vintageincolor" target="_blank" rel="noreferrer"><img src='./assets/facebook.png' alt="" /></a>
-      <a href="https://www.instagram.com/vint.ageincolor/" target="_blank" rel="noreferrer"><img src='./assets/instagram.png' alt="" /></a>
-      <a href="https://www.tiktok.com/@vint.ageincolor" target="_blank" rel="noreferrer"><img src='./assets/tiktok.png' alt="" /></a>
-    </div>
-  </div>
+  
   <div className={styles.profile}>
     <img src='./assets/image5.jpeg' alt=""/>
     <div className={styles.name}>Mozart</div>
